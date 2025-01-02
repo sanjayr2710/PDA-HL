@@ -1,0 +1,1466 @@
+2024-07-31 14:14:24,257: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 14:14:29,449: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 14:14:29,470: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 14:14:30,406: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 14:14:30,407: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 14:14:30,437: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 14:14:30,437: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 14:14:30,452: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 14:14:30,472: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 14:14:30,662: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 14:14:30,662: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 14:14:30,682: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 14:14:30,693: INFO: None value changed
+2024-07-31 14:14:30,893: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 14:14:30,922: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 14:14:30,939: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 14:14:31,024: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 14:14:31,024: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 14:14:31,037: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 14:14:31,046: INFO: None value changed
+2024-07-31 14:14:36,104: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 14:14:36,120: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 14:14:36,146: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 14:14:36,252: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 14:14:39,252: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 14:14:39,274: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 14:14:39,275: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 14:14:39,289: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 14:14:39,317: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 14:14:39,735: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 14:14:41,737: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div
+2024-07-31 14:14:41,752: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div found
+2024-07-31 14:14:43,753: INFO: Searching for element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky']
+2024-07-31 14:14:43,775: INFO: Element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky'] found
+2024-07-31 14:14:45,841: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div
+2024-07-31 14:14:45,865: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div found
+2024-07-31 14:14:45,890: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 14:14:46,341: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 14:14:46,582: INFO: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=127.0.6533.72); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71B9E3E42+31618]
+	(No symbol) [0x00007FF71B95B0A9]
+	(No symbol) [0x00007FF71B81888A]
+	(No symbol) [0x00007FF71B81E6BE]
+	(No symbol) [0x00007FF71B821011]
+	(No symbol) [0x00007FF71B8210B0]
+	(No symbol) [0x00007FF71B8622DB]
+	(No symbol) [0x00007FF71B88D10A]
+	(No symbol) [0x00007FF71B85BBA6]
+	(No symbol) [0x00007FF71B88D320]
+	(No symbol) [0x00007FF71B8ACA80]
+	(No symbol) [0x00007FF71B88CEB3]
+	(No symbol) [0x00007FF71B85A46B]
+	(No symbol) [0x00007FF71B85B001]
+	GetHandleVerifier [0x00007FF71BCEA01D+3202397]
+	GetHandleVerifier [0x00007FF71BD36A3D+3516285]
+	GetHandleVerifier [0x00007FF71BD2C4B0+3473904]
+	GetHandleVerifier [0x00007FF71BA95D46+760454]
+	(No symbol) [0x00007FF71B966B4F]
+	(No symbol) [0x00007FF71B961CE4]
+	(No symbol) [0x00007FF71B961E72]
+	(No symbol) [0x00007FF71B95121F]
+	BaseThreadInitThunk [0x00007FFF0724257D+29]
+	RtlUserThreadStart [0x00007FFF088AAF28+40]
+
+2024-07-31 14:14:47,560: INFO: Driver quitting
+2024-07-31 14:14:50,123: INFO: Driver quitted
+2024-07-31 14:16:01,208: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 14:16:05,532: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 14:16:05,545: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 14:16:06,637: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 14:16:06,638: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 14:16:06,656: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 14:16:06,657: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 14:16:06,671: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 14:16:06,690: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 14:16:06,768: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 14:16:06,768: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 14:16:06,779: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 14:16:06,787: INFO: None value changed
+2024-07-31 14:16:06,991: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 14:16:07,014: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 14:16:07,036: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 14:16:07,119: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 14:16:07,119: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 14:16:07,133: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 14:16:07,142: INFO: None value changed
+2024-07-31 14:16:12,216: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 14:16:12,227: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 14:16:12,236: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 14:16:12,319: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 14:16:15,320: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 14:16:15,335: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 14:16:15,336: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 14:16:15,355: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 14:16:15,382: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 14:16:15,871: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 14:16:17,872: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div
+2024-07-31 14:16:17,894: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div found
+2024-07-31 14:16:19,896: INFO: Searching for element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky']
+2024-07-31 14:16:19,910: INFO: Element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky'] found
+2024-07-31 14:16:21,936: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div
+2024-07-31 14:16:21,944: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[2]/div[1]/div/div/div[1]/table/thead/tr/th[1]/div/div[2]/div found
+2024-07-31 14:16:21,958: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 14:16:22,122: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 14:16:22,122: INFO: Searching for element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky']
+2024-07-31 14:16:22,363: INFO: Element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky'] found
+2024-07-31 14:16:22,569: INFO: Driver quitting
+2024-07-31 14:16:24,975: INFO: Driver quitted
+2024-07-31 16:08:59,530: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 16:09:04,693: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 16:09:04,704: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 16:09:05,783: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 16:09:05,783: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 16:09:05,800: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 16:09:05,800: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 16:09:05,813: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 16:09:05,829: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 16:09:06,058: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 16:09:06,059: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 16:09:06,082: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 16:09:06,104: INFO: None value changed
+2024-07-31 16:09:06,368: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 16:09:06,402: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 16:09:06,445: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 16:09:06,561: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 16:09:06,562: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 16:09:06,575: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 16:09:06,584: INFO: None value changed
+2024-07-31 16:09:11,654: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 16:09:11,666: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 16:09:11,677: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 16:09:11,776: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 16:09:14,777: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 16:09:14,793: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 16:09:14,794: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 16:09:14,802: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 16:09:16,803: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 16:09:16,815: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 16:09:16,831: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 16:09:17,109: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 16:09:23,113: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input
+2024-07-31 16:09:23,135: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input found
+2024-07-31 16:09:24,136: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input
+2024-07-31 16:09:24,156: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input found
+2024-07-31 16:09:24,174: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:09:24,268: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:09:25,269: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input
+2024-07-31 16:09:25,279: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[1]/div/div/div/input found
+2024-07-31 16:09:25,287: INFO: None value changed
+2024-07-31 16:09:30,508: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input
+2024-07-31 16:09:30,518: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input found
+2024-07-31 16:09:31,519: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input
+2024-07-31 16:09:31,533: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input found
+2024-07-31 16:09:31,549: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:09:31,625: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:09:32,626: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input
+2024-07-31 16:09:32,653: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[2]/div/div/div/input found
+2024-07-31 16:09:32,660: INFO: None value changed
+2024-07-31 16:09:37,842: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input
+2024-07-31 16:09:37,872: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input found
+2024-07-31 16:09:38,873: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input
+2024-07-31 16:09:38,890: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input found
+2024-07-31 16:09:38,903: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:09:38,962: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:09:39,964: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input
+2024-07-31 16:09:39,981: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[4]/div/div/div/input found
+2024-07-31 16:09:39,996: INFO: None value changed
+2024-07-31 16:09:45,187: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input
+2024-07-31 16:09:45,201: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input found
+2024-07-31 16:09:46,202: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input
+2024-07-31 16:09:46,208: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input found
+2024-07-31 16:09:46,217: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:09:46,308: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:09:47,309: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input
+2024-07-31 16:09:47,318: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[5]/div/div/div/input found
+2024-07-31 16:09:47,324: INFO: None value changed
+2024-07-31 16:09:52,498: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input
+2024-07-31 16:09:52,516: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input found
+2024-07-31 16:09:53,516: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input
+2024-07-31 16:09:53,536: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input found
+2024-07-31 16:09:53,551: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:09:53,635: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:09:54,636: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input
+2024-07-31 16:09:54,643: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[6]/div/div/div/input found
+2024-07-31 16:09:54,652: INFO: None value changed
+2024-07-31 16:09:59,807: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input
+2024-07-31 16:09:59,828: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input found
+2024-07-31 16:10:00,829: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input
+2024-07-31 16:10:00,836: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input found
+2024-07-31 16:10:00,845: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1
+2024-07-31 16:10:00,935: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1 clicked
+2024-07-31 16:10:01,936: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input
+2024-07-31 16:10:01,946: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[7]/div/div/div/input found
+2024-07-31 16:10:01,952: INFO: None value changed
+2024-07-31 16:10:05,127: INFO: Searching for element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky']
+2024-07-31 16:10:05,140: INFO: Element by xpath //p[@class='MuiTypography-root MuiTypography-body1 css-xvjzky'] found
+2024-07-31 16:10:05,349: INFO: Driver quitting
+2024-07-31 16:10:07,784: INFO: Driver quitted
+2024-07-31 17:59:20,028: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 17:59:20,510: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 17:59:20,535: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 17:59:25,116: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 17:59:25,117: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 17:59:25,133: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 17:59:25,134: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 17:59:25,144: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 17:59:25,165: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 17:59:25,223: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 17:59:25,223: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 17:59:25,230: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 17:59:25,238: INFO: None value changed
+2024-07-31 17:59:25,388: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 17:59:25,429: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 17:59:25,443: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 17:59:25,540: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 17:59:25,540: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 17:59:25,553: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 17:59:25,566: INFO: None value changed
+2024-07-31 17:59:30,649: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 17:59:30,669: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 17:59:30,687: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 17:59:30,741: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 17:59:33,743: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 17:59:33,767: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 17:59:33,767: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 17:59:33,787: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 17:59:35,789: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 17:59:35,812: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 17:59:35,824: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 17:59:36,021: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 17:59:40,022: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 17:59:40,050: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 17:59:42,050: INFO: Searching for element by xpath ('xpath', "//div[@class='MuiBox-root css-1bicmub']")
+2024-07-31 17:59:42,052: INFO: Message: invalid argument: 'value' must be a string
+  (Session info: chrome=127.0.6533.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF63C103E42+31618]
+	(No symbol) [0x00007FF63C07B0A9]
+	(No symbol) [0x00007FF63BF3888A]
+	(No symbol) [0x00007FF63BF87AC3]
+	(No symbol) [0x00007FF63BF8862C]
+	(No symbol) [0x00007FF63BFCF7B7]
+	(No symbol) [0x00007FF63BFAD14F]
+	(No symbol) [0x00007FF63BFCCA80]
+	(No symbol) [0x00007FF63BFACEB3]
+	(No symbol) [0x00007FF63BF7A46B]
+	(No symbol) [0x00007FF63BF7B001]
+	GetHandleVerifier [0x00007FF63C40A01D+3202397]
+	GetHandleVerifier [0x00007FF63C456A3D+3516285]
+	GetHandleVerifier [0x00007FF63C44C4B0+3473904]
+	GetHandleVerifier [0x00007FF63C1B5D46+760454]
+	(No symbol) [0x00007FF63C086B4F]
+	(No symbol) [0x00007FF63C081CE4]
+	(No symbol) [0x00007FF63C081E72]
+	(No symbol) [0x00007FF63C07121F]
+	BaseThreadInitThunk [0x00007FFF0724257D+29]
+	RtlUserThreadStart [0x00007FFF088AAF28+40]
+
+2024-07-31 17:59:42,441: INFO: Driver quitting
+2024-07-31 17:59:44,934: INFO: Driver quitted
+2024-07-31 18:02:20,363: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:02:20,826: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:02:20,844: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:02:25,016: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:02:25,016: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 18:02:25,031: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 18:02:25,032: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:02:25,043: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:02:25,062: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:02:25,132: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:02:25,132: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:02:25,141: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:02:25,150: INFO: None value changed
+2024-07-31 18:02:25,346: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:02:25,362: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:02:25,378: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:02:25,450: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:02:25,450: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:02:25,463: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:02:25,471: INFO: None value changed
+2024-07-31 18:02:30,537: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 18:02:30,566: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 18:02:30,591: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 18:02:30,695: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 18:02:33,699: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:02:33,714: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:02:33,715: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:02:33,724: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:02:35,725: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:02:35,732: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:02:35,742: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 18:02:36,069: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 18:02:40,070: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:02:40,091: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:02:42,092: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:02:42,113: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:02:42,129: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 18:02:42,273: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 18:02:42,274: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:02:42,534: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:02:42,535: INFO: Searching for element by xpath ('xpath', "//div[@class='MuiBox-root css-v7v99c']")
+2024-07-31 18:02:42,539: INFO: Message: invalid argument: 'value' must be a string
+  (Session info: chrome=127.0.6533.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF63C103E42+31618]
+	(No symbol) [0x00007FF63C07B0A9]
+	(No symbol) [0x00007FF63BF3888A]
+	(No symbol) [0x00007FF63BF87AC3]
+	(No symbol) [0x00007FF63BF8862C]
+	(No symbol) [0x00007FF63BFCF7B7]
+	(No symbol) [0x00007FF63BFAD14F]
+	(No symbol) [0x00007FF63BFCCA80]
+	(No symbol) [0x00007FF63BFACEB3]
+	(No symbol) [0x00007FF63BF7A46B]
+	(No symbol) [0x00007FF63BF7B001]
+	GetHandleVerifier [0x00007FF63C40A01D+3202397]
+	GetHandleVerifier [0x00007FF63C456A3D+3516285]
+	GetHandleVerifier [0x00007FF63C44C4B0+3473904]
+	GetHandleVerifier [0x00007FF63C1B5D46+760454]
+	(No symbol) [0x00007FF63C086B4F]
+	(No symbol) [0x00007FF63C081CE4]
+	(No symbol) [0x00007FF63C081E72]
+	(No symbol) [0x00007FF63C07121F]
+	BaseThreadInitThunk [0x00007FFF0724257D+29]
+	RtlUserThreadStart [0x00007FFF088AAF28+40]
+
+2024-07-31 18:02:43,028: INFO: Driver quitting
+2024-07-31 18:02:45,528: INFO: Driver quitted
+2024-07-31 18:04:16,881: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:04:17,342: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:04:17,357: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:04:21,837: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:04:21,837: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 18:04:21,850: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 18:04:21,850: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:04:21,860: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:04:21,872: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:04:21,925: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:04:21,925: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:04:21,931: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:04:21,935: INFO: None value changed
+2024-07-31 18:04:22,050: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:04:22,062: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:04:22,073: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:04:22,130: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:04:22,130: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:04:22,138: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:04:22,145: INFO: None value changed
+2024-07-31 18:04:27,187: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 18:04:27,200: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 18:04:27,213: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 18:04:27,277: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 18:04:30,278: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:04:30,291: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:04:30,292: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:04:30,304: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:04:32,306: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:04:32,314: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:04:32,324: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 18:04:32,551: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 18:04:36,553: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:04:36,567: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:04:38,568: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:04:38,579: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:04:38,589: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 18:04:38,750: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 18:04:38,751: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:04:39,002: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:04:39,002: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:04:39,022: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:04:41,069: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 18:04:41,085: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 18:04:41,604: INFO: Driver quitting
+2024-07-31 18:04:44,141: INFO: Driver quitted
+2024-07-31 18:05:44,063: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:05:48,417: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:05:48,430: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:05:49,725: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:05:49,725: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 18:05:49,753: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 18:05:49,753: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:05:49,785: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:05:49,830: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:05:49,963: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:05:49,963: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:05:49,982: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:05:50,002: INFO: None value changed
+2024-07-31 18:05:50,235: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:05:50,255: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:05:50,278: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:05:50,372: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:05:50,373: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:05:50,386: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:05:50,398: INFO: None value changed
+2024-07-31 18:05:55,472: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 18:05:55,483: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 18:05:55,497: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 18:05:55,554: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 18:05:58,555: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:05:58,581: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:05:58,582: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:05:58,595: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:06:00,597: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:06:00,608: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:06:00,620: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 18:06:01,066: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 18:06:05,068: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:06:05,078: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:06:07,079: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:06:07,099: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:06:07,115: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 18:06:07,303: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 18:06:07,303: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:06:07,530: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:06:07,530: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:06:07,538: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:06:07,904: INFO: Driver quitting
+2024-07-31 18:06:10,385: INFO: Driver quitted
+2024-07-31 18:09:41,745: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:09:45,343: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:09:45,358: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 18:09:46,610: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 18:09:46,611: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 18:09:46,625: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 18:09:46,625: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:09:46,634: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:09:46,651: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:09:46,699: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:09:46,699: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 18:09:46,705: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 18:09:46,710: INFO: None value changed
+2024-07-31 18:09:46,837: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:09:46,851: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:09:46,863: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 18:09:46,907: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 18:09:46,907: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 18:09:46,916: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 18:09:46,921: INFO: None value changed
+2024-07-31 18:09:51,978: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 18:09:51,999: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 18:09:52,020: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 18:09:52,129: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 18:09:55,130: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:09:55,144: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:09:55,145: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:09:55,155: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:09:57,156: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 18:09:57,170: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 18:09:57,184: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 18:09:57,442: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 18:10:01,443: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:10:01,456: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:10:03,457: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 18:10:03,475: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 18:10:03,491: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 18:10:03,642: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 18:10:03,642: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:10:03,880: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:10:03,881: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:10:03,896: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:10:05,930: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 18:10:05,950: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 18:10:05,967: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 18:10:06,095: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 18:10:06,096: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:10:06,349: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:10:06,350: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 18:10:06,362: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 18:10:06,854: INFO: Driver quitting
+2024-07-31 18:10:09,347: INFO: Driver quitted
+2024-07-31 19:05:56,786: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:06:01,256: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:06:01,268: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:06:02,508: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:06:02,508: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:06:02,523: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:06:02,524: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:06:02,536: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:06:02,552: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:06:02,622: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:06:02,622: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:06:02,632: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:06:02,640: INFO: None value changed
+2024-07-31 19:06:02,822: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:06:02,840: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:06:02,854: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:06:02,933: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:06:02,933: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:06:02,944: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:06:02,952: INFO: None value changed
+2024-07-31 19:06:08,020: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:06:08,031: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:06:08,043: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:06:08,138: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:06:11,140: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:06:11,152: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:06:11,152: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:06:11,159: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:06:13,161: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:06:13,172: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:06:13,191: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:06:13,557: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:06:17,559: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:06:17,584: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:06:19,585: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:06:19,596: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:06:19,608: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:06:19,788: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:06:19,788: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:06:20,025: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:06:20,026: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:06:20,051: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:06:22,565: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:06:22,575: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:06:22,588: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:06:22,760: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:06:22,761: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:06:23,032: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:06:23,032: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:06:23,051: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:06:23,267: INFO: Driver quitting
+2024-07-31 19:06:25,815: INFO: Driver quitted
+2024-07-31 19:07:51,192: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:07:54,899: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:07:54,913: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:07:56,312: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:07:56,314: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:07:56,340: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:07:56,341: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:07:56,367: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:07:56,391: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:07:56,606: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:07:56,606: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:07:56,621: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:07:56,635: INFO: None value changed
+2024-07-31 19:07:56,813: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:07:56,828: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:07:56,844: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:07:56,919: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:07:56,920: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:07:56,931: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:07:56,939: INFO: None value changed
+2024-07-31 19:08:02,006: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:08:02,017: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:08:02,028: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:08:02,103: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:08:05,103: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:08:05,135: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:08:05,135: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:08:05,149: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:08:07,151: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:08:07,162: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:08:07,184: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:08:07,598: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:08:11,600: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:08:11,611: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:08:13,613: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:08:13,623: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:08:13,633: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:08:13,936: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:08:13,937: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:08:14,155: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:08:14,156: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:08:14,189: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:08:17,887: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:08:17,896: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:08:17,905: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:08:18,115: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:08:18,116: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:08:18,375: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:08:18,376: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:08:18,394: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:08:18,689: INFO: Driver quitting
+2024-07-31 19:08:21,210: INFO: Driver quitted
+2024-07-31 19:09:08,966: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:09:12,364: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:09:12,375: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:09:13,895: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:09:13,896: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:09:13,908: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:09:13,909: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:09:13,921: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:09:13,938: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:09:14,006: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:09:14,006: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:09:14,014: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:09:14,021: INFO: None value changed
+2024-07-31 19:09:14,183: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:09:14,198: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:09:14,213: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:09:14,306: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:09:14,306: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:09:14,316: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:09:14,322: INFO: None value changed
+2024-07-31 19:09:19,395: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:09:19,414: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:09:19,444: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:09:19,556: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:09:22,558: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:09:22,574: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:09:22,574: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:09:22,590: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:09:24,591: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:09:24,601: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:09:24,619: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:09:24,834: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:09:28,835: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:09:28,855: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:09:30,856: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:09:30,869: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:09:30,879: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:09:31,050: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:09:31,051: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:09:31,304: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:09:31,304: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:09:31,325: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:09:34,536: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:09:34,556: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:09:34,569: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:09:34,725: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:09:34,727: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:09:35,003: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:09:35,003: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:09:35,016: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:09:35,268: INFO: Driver quitting
+2024-07-31 19:09:37,738: INFO: Driver quitted
+2024-07-31 19:11:59,404: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:11:59,871: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:11:59,886: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:12:05,296: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:12:05,297: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:12:05,321: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:12:05,322: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:12:05,337: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:12:05,358: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:12:05,449: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:12:05,449: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:12:05,461: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:12:05,470: INFO: None value changed
+2024-07-31 19:12:05,695: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:12:05,718: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:12:05,742: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:12:05,847: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:12:05,847: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:12:05,860: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:12:05,869: INFO: None value changed
+2024-07-31 19:12:10,945: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:12:10,956: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:12:10,965: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:12:11,028: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:12:14,030: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:12:14,047: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:12:14,047: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:12:14,057: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:12:16,058: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:12:16,072: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:12:16,090: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:12:16,496: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:12:20,498: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:12:20,518: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:12:22,518: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:12:22,539: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:12:22,554: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:12:22,731: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:12:22,732: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:12:22,982: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:12:22,982: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:12:22,999: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:12:26,457: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:12:26,479: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:12:26,497: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:12:26,693: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:12:26,694: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:12:26,953: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:12:26,954: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:12:26,973: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:12:28,841: INFO: Driver quitting
+2024-07-31 19:12:31,348: INFO: Driver quitted
+2024-07-31 19:15:54,970: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:15:58,731: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:15:58,747: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:16:00,642: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:16:00,643: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:16:00,872: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:16:00,872: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:16:00,912: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:16:00,962: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:16:01,160: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:16:01,160: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:16:01,187: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:16:01,222: INFO: None value changed
+2024-07-31 19:16:01,503: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:16:01,530: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:16:01,557: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:16:01,678: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:16:01,679: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:16:01,696: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:16:01,711: INFO: None value changed
+2024-07-31 19:16:06,829: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:16:06,926: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:16:06,953: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:16:07,107: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:16:10,109: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:16:10,130: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:16:10,130: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:16:10,146: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:16:12,147: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:16:12,159: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:16:12,175: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:16:12,559: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:16:16,571: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:16:16,587: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:16:18,589: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:16:18,600: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:16:18,614: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:16:18,855: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:16:18,855: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:16:19,210: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:16:19,210: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:16:19,238: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:16:25,151: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:16:25,166: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:16:25,181: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:16:25,513: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:16:25,514: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:16:25,721: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:16:25,721: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:16:25,749: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:16:27,839: INFO: Driver quitting
+2024-07-31 19:16:30,274: INFO: Driver quitted
+2024-07-31 19:17:40,997: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:17:44,644: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:17:44,653: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:17:46,199: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:17:46,200: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:17:46,215: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:17:46,215: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:17:46,227: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:17:46,244: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:17:46,311: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:17:46,312: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:17:46,320: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:17:46,327: INFO: None value changed
+2024-07-31 19:17:46,481: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:17:46,498: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:17:46,512: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:17:46,583: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:17:46,584: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:17:46,593: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:17:46,600: INFO: None value changed
+2024-07-31 19:17:51,662: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:17:51,683: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:17:51,697: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:17:51,776: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:17:54,777: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:17:54,791: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:17:54,791: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:17:54,799: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:17:56,800: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:17:56,810: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:17:56,829: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:17:57,135: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:18:01,137: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:18:01,147: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:18:03,149: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:18:03,164: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:18:03,177: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:18:03,408: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:18:03,408: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:18:03,635: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:18:03,635: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:18:03,656: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:18:06,938: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:18:06,951: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:18:06,964: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:18:07,185: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:18:07,185: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:18:07,421: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:18:07,421: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:18:07,445: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:18:09,875: INFO: Driver quitting
+2024-07-31 19:18:12,366: INFO: Driver quitted
+2024-07-31 19:18:58,807: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:19:02,132: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:19:02,145: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:19:03,565: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:19:03,566: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:19:03,585: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:19:03,585: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:19:03,596: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:19:03,612: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:19:03,675: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:19:03,675: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:19:03,684: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:19:03,690: INFO: None value changed
+2024-07-31 19:19:03,850: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:19:03,866: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:19:03,881: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:19:03,955: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:19:03,955: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:19:03,966: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:19:03,976: INFO: None value changed
+2024-07-31 19:19:09,049: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:19:09,065: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:19:09,081: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:19:09,164: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:19:12,166: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:19:12,181: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:19:12,182: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:19:12,191: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:19:14,192: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:19:14,200: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:19:14,214: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:19:14,421: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:19:18,422: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:19:18,439: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:19:20,441: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:19:20,461: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:19:20,474: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:19:20,668: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:19:20,668: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:19:20,914: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:19:20,914: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:19:20,936: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:19:24,106: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:19:24,125: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:19:24,137: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:19:24,303: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:19:24,303: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:19:24,554: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:19:24,554: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:19:24,574: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:19:26,192: INFO: Driver quitting
+2024-07-31 19:19:28,643: INFO: Driver quitted
+2024-07-31 19:20:11,430: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:20:16,450: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:20:16,469: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:20:17,722: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:20:17,723: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:20:17,743: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:20:17,744: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:20:17,764: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:20:17,794: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:20:17,904: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:20:17,904: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:20:17,967: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:20:17,986: INFO: None value changed
+2024-07-31 19:20:18,283: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:20:18,313: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:20:18,339: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:20:18,444: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:20:18,445: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:20:18,463: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:20:18,472: INFO: None value changed
+2024-07-31 19:20:23,563: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:20:23,737: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:20:23,771: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:20:23,918: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:20:26,920: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:20:26,945: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:20:26,946: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:20:26,959: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:20:28,960: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:20:28,970: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:20:28,990: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:20:30,402: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:20:34,404: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:20:34,436: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:20:36,437: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:20:36,450: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:20:36,463: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:20:36,718: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:20:36,718: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:20:36,970: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:20:36,971: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:20:37,000: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:20:40,719: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:20:40,735: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:20:40,751: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:20:41,042: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:20:41,043: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:20:41,269: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:20:41,269: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:20:41,295: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:20:43,406: INFO: Driver quitting
+2024-07-31 19:20:45,943: INFO: Driver quitted
+2024-07-31 19:21:35,261: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:21:38,864: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:21:38,880: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:21:40,385: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:21:40,386: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:21:40,403: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:21:40,403: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:21:40,414: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:21:40,429: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:21:40,494: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:21:40,494: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:21:40,503: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:21:40,513: INFO: None value changed
+2024-07-31 19:21:40,684: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:21:40,703: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:21:40,721: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:21:40,802: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:21:40,802: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:21:40,814: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:21:40,822: INFO: None value changed
+2024-07-31 19:21:45,894: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:21:45,912: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:21:45,924: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:21:45,978: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:21:48,979: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:21:48,990: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:21:48,990: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:21:48,997: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:21:50,998: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:21:51,018: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:21:51,045: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:21:51,472: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:21:55,473: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:21:55,485: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:21:57,486: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:21:57,498: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:21:57,511: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:21:57,752: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:21:57,752: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:21:57,994: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:21:57,994: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:21:58,019: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:22:01,768: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:22:01,779: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:22:01,790: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:22:02,001: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:22:02,003: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:22:02,249: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:22:02,249: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:22:02,277: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:22:04,142: INFO: Driver quitting
+2024-07-31 19:22:06,609: INFO: Driver quitted
+2024-07-31 19:23:52,366: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:23:56,007: INFO: Driver quitting
+2024-07-31 19:24:00,084: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FBEF9C28A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9cc2b73785857152608296295f86c33d
+2024-07-31 19:24:00,690: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:24:01,147: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:24:01,168: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:24:04,166: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FBEF9C3AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9cc2b73785857152608296295f86c33d
+2024-07-31 19:24:05,602: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:24:05,603: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:24:05,619: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:24:05,619: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:24:05,629: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:24:05,643: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:24:05,698: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:24:05,698: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:24:05,707: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:24:05,712: INFO: None value changed
+2024-07-31 19:24:05,846: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:24:05,860: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:24:05,872: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:24:05,941: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:24:05,941: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:24:05,952: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:24:05,961: INFO: None value changed
+2024-07-31 19:24:08,188: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FBEFA4F2F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9cc2b73785857152608296295f86c33d
+2024-07-31 19:24:11,039: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:24:11,060: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:24:11,091: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:24:11,191: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:24:14,193: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:24:14,212: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:24:14,212: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:24:14,222: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:24:16,223: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:24:16,230: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:24:16,242: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:24:16,341: INFO: Driver quitted
+2024-07-31 19:24:16,473: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:24:20,475: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:24:20,488: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:24:22,489: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:24:22,503: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:24:22,520: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:24:22,814: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:24:22,815: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:24:23,051: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:24:23,052: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:24:23,084: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:24:26,776: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:24:26,784: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:24:26,793: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:24:26,953: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:24:26,954: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:24:27,228: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:24:27,229: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:24:27,243: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:24:28,659: INFO: Driver quitting
+2024-07-31 19:24:31,201: INFO: Driver quitted
+2024-07-31 19:28:51,325: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:28:55,250: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:28:55,262: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:28:56,499: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:28:56,500: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:28:56,518: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:28:56,520: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:28:56,535: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:28:56,557: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:28:56,645: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:28:56,646: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:28:56,657: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:28:56,665: INFO: None value changed
+2024-07-31 19:28:56,832: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:28:56,850: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:28:56,866: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:28:56,946: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:28:56,947: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:28:56,958: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:28:56,968: INFO: None value changed
+2024-07-31 19:29:02,042: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:29:02,058: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:29:02,072: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:29:02,169: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:29:05,170: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:29:05,188: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:29:05,189: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:29:05,202: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:29:07,203: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:29:07,218: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:29:07,239: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:29:07,559: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:29:11,566: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:29:11,586: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:29:13,587: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:29:13,629: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:29:13,657: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:29:13,917: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:29:13,918: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:29:14,231: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:29:14,231: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:29:14,264: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:29:18,230: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:29:18,250: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:29:18,272: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:29:18,557: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:29:18,559: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:29:18,788: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:29:18,788: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:29:18,815: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:29:21,374: INFO: Driver quitting
+2024-07-31 19:29:23,907: INFO: Driver quitted
+2024-07-31 19:32:01,679: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:32:02,145: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:32:02,170: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:32:07,547: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:32:07,548: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:32:07,571: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:32:07,571: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:32:07,587: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:32:07,613: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:32:07,718: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:32:07,718: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:32:07,732: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:32:07,745: INFO: None value changed
+2024-07-31 19:32:07,921: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:32:07,947: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:32:07,988: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:32:08,126: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:32:08,126: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:32:08,142: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:32:08,151: INFO: None value changed
+2024-07-31 19:32:13,231: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:32:13,248: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:32:13,269: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:32:13,565: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:32:16,707: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:32:16,985: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:32:16,986: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:32:17,005: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:32:19,083: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:32:19,156: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:32:19,190: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:32:19,743: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:32:23,745: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:32:23,763: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:32:26,005: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:32:26,035: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:32:26,059: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:32:27,245: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:32:27,246: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:32:27,264: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:32:27,265: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:32:27,494: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:32:32,567: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:32:32,647: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:32:32,681: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:32:32,966: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:32:32,971: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:32:33,275: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:32:33,275: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:32:33,295: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:32:37,639: INFO: Driver quitting
+2024-07-31 19:32:40,762: INFO: Driver quitted
+2024-07-31 19:33:54,806: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:33:59,597: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:33:59,614: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:34:00,846: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:34:00,847: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:34:00,882: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:34:00,883: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:34:00,901: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:34:00,930: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:34:01,089: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:34:01,090: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:34:01,103: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:34:01,114: INFO: None value changed
+2024-07-31 19:34:01,292: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:34:01,314: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:34:01,336: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:34:01,431: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:34:01,431: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:34:01,445: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:34:01,463: INFO: None value changed
+2024-07-31 19:34:06,546: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:34:06,574: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:34:06,594: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:34:06,690: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:34:09,692: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:34:09,708: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:34:09,709: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:34:09,722: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:34:11,723: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:34:11,733: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:34:11,750: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:34:12,099: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:34:16,099: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:34:16,115: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:34:18,116: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:34:18,139: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:34:18,159: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:34:18,449: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:34:18,450: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:34:18,733: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:34:18,733: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:34:18,765: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:34:22,755: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:34:22,769: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:34:22,784: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:34:23,080: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:34:23,088: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:34:23,366: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:34:23,366: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:34:23,396: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:34:25,557: INFO: Driver quitting
+2024-07-31 19:34:27,955: INFO: Driver quitted
+2024-07-31 19:36:08,361: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:36:12,776: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:36:12,793: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:36:13,845: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:36:13,846: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:36:13,867: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:36:13,867: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:36:13,881: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:36:13,906: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:36:14,027: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:36:14,027: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:36:14,044: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:36:14,060: INFO: None value changed
+2024-07-31 19:36:14,247: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:36:14,265: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:36:14,280: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:36:14,359: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:36:14,360: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:36:14,370: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:36:14,378: INFO: None value changed
+2024-07-31 19:36:19,442: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:36:19,468: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:36:19,493: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:36:19,587: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:36:22,588: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:36:22,612: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:36:22,614: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:36:22,627: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:36:24,628: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:36:24,645: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:36:24,670: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:36:25,001: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:36:29,003: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:36:29,021: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:36:31,022: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:36:31,042: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:36:31,060: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:36:31,429: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:36:31,429: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:36:31,688: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:36:31,689: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:36:31,724: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:36:36,226: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:36:36,245: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:36:36,270: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:36:36,654: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:36:36,655: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:36:36,898: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:36:36,899: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:36:36,932: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:36:40,068: INFO: Driver quitting
+2024-07-31 19:36:42,550: INFO: Driver quitted
+2024-07-31 19:37:26,080: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:37:26,562: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:37:26,577: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:37:30,179: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:37:30,180: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:37:30,221: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:37:30,222: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:37:30,238: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:37:30,269: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:37:30,382: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:37:30,382: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:37:30,398: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:37:30,410: INFO: None value changed
+2024-07-31 19:37:30,586: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:37:30,604: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:37:30,628: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:37:30,724: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:37:30,724: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:37:30,740: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:37:30,749: INFO: None value changed
+2024-07-31 19:37:35,836: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:37:35,863: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:37:35,916: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:37:36,087: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:37:39,088: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:37:39,114: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:37:39,114: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:37:39,125: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:37:41,127: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:37:41,139: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:37:41,160: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:37:41,598: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:37:45,600: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:37:45,623: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:37:47,624: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:37:47,653: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:37:47,671: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:37:48,069: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:37:48,070: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:37:48,373: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:37:48,373: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:37:48,429: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:37:53,183: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:37:53,201: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:37:53,216: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:37:53,593: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:37:53,601: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:37:53,846: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:37:53,847: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:37:53,878: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:37:56,804: INFO: Driver quitting
+2024-07-31 19:37:59,354: INFO: Driver quitted
+2024-07-31 19:45:27,765: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:45:32,013: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:45:32,029: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:45:33,492: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:45:33,493: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:45:33,511: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:45:33,512: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:45:33,525: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:45:33,543: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:45:33,615: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:45:33,615: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:45:33,624: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:45:33,631: INFO: None value changed
+2024-07-31 19:45:33,812: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:45:33,829: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:45:33,845: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:45:33,929: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:45:33,930: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:45:33,941: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:45:33,952: INFO: None value changed
+2024-07-31 19:45:39,018: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:45:39,037: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:45:39,052: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:45:39,201: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:45:42,202: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:45:42,220: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:45:42,220: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:45:42,233: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:45:44,234: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:45:44,245: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:45:44,259: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:45:44,604: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:45:48,606: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:45:48,626: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:45:50,628: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:45:50,651: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:45:50,668: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:45:50,954: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:45:50,955: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:45:51,226: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:45:51,226: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:45:51,257: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:45:55,253: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:45:55,270: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:45:55,286: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:45:55,608: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:45:55,609: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:45:55,825: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:45:55,826: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:45:55,849: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:45:57,989: INFO: Driver quitting
+2024-07-31 19:46:00,510: INFO: Driver quitted
+2024-07-31 19:46:46,848: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:46:50,947: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:46:50,964: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:46:52,522: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:46:52,523: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:46:52,541: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:46:52,541: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:46:52,557: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:46:52,576: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:46:52,648: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:46:52,648: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:46:52,658: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:46:52,667: INFO: None value changed
+2024-07-31 19:46:52,812: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:46:52,826: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:46:52,839: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:46:52,914: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:46:52,914: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:46:52,926: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:46:52,938: INFO: None value changed
+2024-07-31 19:46:58,045: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:46:58,061: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:46:58,081: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:46:58,171: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:47:01,173: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:47:01,196: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:47:01,196: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:47:01,210: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:47:03,211: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:47:03,224: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:47:03,241: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:47:03,530: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:47:07,540: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:47:07,561: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:47:09,562: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:47:09,590: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:47:09,606: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:47:09,911: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:47:09,912: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:47:10,164: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:47:10,165: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:47:10,193: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:47:15,003: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:47:15,023: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:47:15,044: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:47:15,430: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:47:15,430: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:47:15,736: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:47:15,736: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:47:15,761: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:47:18,441: INFO: Driver quitting
+2024-07-31 19:47:20,768: INFO: Driver quitted
+2024-07-31 19:49:31,680: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:49:35,443: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:49:35,455: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:49:36,633: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:49:36,634: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:49:36,658: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:49:36,659: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:49:36,675: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:49:36,702: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:49:36,804: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:49:36,804: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:49:36,817: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:49:36,828: INFO: None value changed
+2024-07-31 19:49:36,971: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:49:36,991: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:49:37,021: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:49:37,124: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:49:37,125: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:49:37,137: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:49:37,150: INFO: None value changed
+2024-07-31 19:49:42,222: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:49:42,244: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:49:42,271: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:49:42,404: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:49:45,410: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:49:45,465: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:49:45,466: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:49:45,479: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:49:47,481: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:49:47,493: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:49:47,518: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:49:47,849: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:49:51,867: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:49:51,883: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:49:53,884: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:49:54,006: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:49:54,077: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:49:55,175: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:49:55,176: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:49:55,221: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:49:55,221: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:49:55,275: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:49:59,685: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:49:59,703: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:49:59,719: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:50:00,042: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:50:00,042: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:50:00,271: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:50:00,271: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:50:00,293: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:50:03,039: INFO: Driver quitting
+2024-07-31 19:50:05,444: INFO: Driver quitted
+2024-07-31 19:53:09,364: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:53:13,802: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:53:13,816: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-07-31 19:53:14,985: INFO: http://10.20.0.165:8998/app/login opened
+2024-07-31 19:53:14,986: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-07-31 19:53:15,006: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-07-31 19:53:15,007: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:53:15,020: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:53:15,043: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:53:15,119: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:53:15,120: INFO: Searching for element by xpath //input[@name='email']
+2024-07-31 19:53:15,130: INFO: Element by xpath //input[@name='email'] found
+2024-07-31 19:53:15,138: INFO: None value changed
+2024-07-31 19:53:15,305: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:53:15,321: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:53:15,336: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-07-31 19:53:15,405: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-07-31 19:53:15,405: INFO: Searching for element by xpath //input[@name='password']
+2024-07-31 19:53:15,418: INFO: Element by xpath //input[@name='password'] found
+2024-07-31 19:53:15,426: INFO: None value changed
+2024-07-31 19:53:20,490: INFO: Searching for element by xpath //button[@type='submit']
+2024-07-31 19:53:20,506: INFO: Element by xpath //button[@type='submit'] found
+2024-07-31 19:53:20,524: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-07-31 19:53:20,603: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-07-31 19:53:23,604: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:53:23,627: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:53:23,628: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:53:23,644: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:53:25,644: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-07-31 19:53:25,656: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-07-31 19:53:25,671: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-07-31 19:53:25,949: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-07-31 19:53:29,950: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:53:29,967: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:53:31,968: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-07-31 19:53:31,991: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-07-31 19:53:32,006: INFO: Clicking on MuiBox-root css-1bicmub
+2024-07-31 19:53:32,376: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:53:32,376: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:53:32,711: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:53:32,712: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:53:32,751: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:53:36,944: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-07-31 19:53:36,959: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-07-31 19:53:36,975: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-07-31 19:53:37,355: INFO: MuiBox-root css-ryfr2d clicked
+2024-07-31 19:53:37,356: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-07-31 19:53:37,659: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-07-31 19:53:37,659: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-07-31 19:53:37,702: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-07-31 19:53:40,293: INFO: Driver quitting
+2024-07-31 19:53:42,639: INFO: Driver quitted

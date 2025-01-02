@@ -1,0 +1,988 @@
+2024-08-01 13:29:36,742: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:29:42,079: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:29:42,103: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:29:43,047: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:29:43,048: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 13:29:43,084: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 13:29:43,084: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:29:43,102: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:29:43,134: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:29:43,360: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:29:43,360: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:29:43,386: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:29:43,402: INFO: None value changed
+2024-08-01 13:29:43,637: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:29:43,658: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:29:43,690: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:29:43,789: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:29:43,789: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:29:43,807: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:29:43,819: INFO: None value changed
+2024-08-01 13:29:48,913: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 13:29:48,926: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 13:29:48,939: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 13:29:49,014: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 13:29:52,016: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:29:52,045: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:29:52,046: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:29:52,067: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:29:54,068: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:29:54,291: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:29:54,612: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 13:29:55,380: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 13:29:59,382: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:29:59,405: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:29:59,406: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:29:59,420: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:30:01,422: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:30:01,435: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:30:01,448: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 13:30:01,532: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 13:30:03,533: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 13:30:03,547: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 13:30:03,547: INFO: Searching for element by xpath ('xpath', "//div[@class='rs-picker-daterange-header']")
+2024-08-01 13:30:03,550: INFO: Message: invalid argument: 'value' must be a string
+  (Session info: chrome=127.0.6533.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF64B963E42+31618]
+	(No symbol) [0x00007FF64B8DB0A9]
+	(No symbol) [0x00007FF64B79888A]
+	(No symbol) [0x00007FF64B7E7AC3]
+	(No symbol) [0x00007FF64B7E862C]
+	(No symbol) [0x00007FF64B82F787]
+	(No symbol) [0x00007FF64B80D14F]
+	(No symbol) [0x00007FF64B82CA80]
+	(No symbol) [0x00007FF64B80CEB3]
+	(No symbol) [0x00007FF64B7DA46B]
+	(No symbol) [0x00007FF64B7DB001]
+	GetHandleVerifier [0x00007FF64BC6A01D+3202397]
+	GetHandleVerifier [0x00007FF64BCB6A3D+3516285]
+	GetHandleVerifier [0x00007FF64BCAC4B0+3473904]
+	GetHandleVerifier [0x00007FF64BA15D46+760454]
+	(No symbol) [0x00007FF64B8E6B4F]
+	(No symbol) [0x00007FF64B8E1CE4]
+	(No symbol) [0x00007FF64B8E1E72]
+	(No symbol) [0x00007FF64B8D121F]
+	BaseThreadInitThunk [0x00007FFF0724257D+29]
+	RtlUserThreadStart [0x00007FFF088AAF28+40]
+
+2024-08-01 13:30:04,035: INFO: Driver quitting
+2024-08-01 13:30:06,654: INFO: Driver quitted
+2024-08-01 13:33:24,372: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:33:28,052: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:33:28,068: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:33:29,761: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:33:29,761: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 13:33:29,777: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 13:33:29,777: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:33:29,788: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:33:29,808: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:33:29,869: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:33:29,870: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:33:29,878: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:33:29,884: INFO: None value changed
+2024-08-01 13:33:30,054: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:33:30,072: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:33:30,090: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:33:30,172: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:33:30,172: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:33:30,183: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:33:30,193: INFO: None value changed
+2024-08-01 13:33:35,256: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 13:33:35,267: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 13:33:35,279: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 13:33:35,339: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 13:33:38,337: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:33:38,363: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:33:38,363: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:33:38,379: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:33:40,378: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:33:40,393: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:33:40,411: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 13:33:40,865: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 13:33:44,861: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:33:44,879: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:33:44,879: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:33:44,886: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:33:46,885: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:33:46,893: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:33:46,915: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 13:33:47,029: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 13:33:49,030: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 13:33:49,043: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 13:33:49,043: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 13:33:49,048: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 13:33:49,207: INFO: Driver quitting
+2024-08-01 13:33:51,733: INFO: Driver quitted
+2024-08-01 13:54:08,698: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:54:13,835: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:54:13,864: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 13:54:15,126: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 13:54:15,127: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 13:54:15,141: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 13:54:15,142: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:54:15,153: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:54:15,172: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:54:15,278: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:54:15,278: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 13:54:15,296: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 13:54:15,310: INFO: None value changed
+2024-08-01 13:54:15,538: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:54:15,562: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:54:15,583: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 13:54:15,678: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 13:54:15,678: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 13:54:15,693: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 13:54:15,707: INFO: None value changed
+2024-08-01 13:54:20,781: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 13:54:20,802: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 13:54:20,841: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 13:54:21,041: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 13:54:24,042: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:54:24,065: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:54:24,065: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:54:24,080: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:54:26,081: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 13:54:26,093: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 13:54:26,108: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 13:54:26,473: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 13:54:30,496: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:54:30,624: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:54:30,624: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:54:30,642: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:54:32,644: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 13:54:32,650: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 13:54:32,660: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 13:54:32,789: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 13:54:34,968: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 13:54:35,137: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 13:54:35,138: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 13:54:35,165: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 13:54:35,166: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 13:54:35,194: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 13:54:35,195: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button
+2024-08-01 13:54:35,225: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button found
+2024-08-01 13:54:35,225: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 13:54:35,249: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 13:54:35,250: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 13:54:35,278: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 13:54:35,278: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button
+2024-08-01 13:54:35,302: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button found
+2024-08-01 13:54:35,303: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 13:54:35,322: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 13:54:35,637: INFO: Driver quitting
+2024-08-01 13:54:38,146: INFO: Driver quitted
+2024-08-01 14:00:23,350: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:00:28,050: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:00:28,065: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:00:29,242: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:00:29,243: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 14:00:29,259: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 14:00:29,259: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:00:29,272: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:00:29,290: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:00:29,363: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:00:29,364: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:00:29,374: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:00:29,381: INFO: None value changed
+2024-08-01 14:00:29,566: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:00:29,590: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:00:29,606: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:00:29,689: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:00:29,689: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:00:29,699: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:00:29,710: INFO: None value changed
+2024-08-01 14:00:34,783: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 14:00:34,796: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 14:00:34,809: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 14:00:34,878: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 14:00:37,885: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:00:37,925: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:00:37,926: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:00:37,938: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:00:39,939: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:00:39,952: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:00:39,969: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 14:00:40,371: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 14:00:44,372: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:00:44,386: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:00:44,386: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:00:44,393: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:00:46,393: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:00:46,400: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:00:46,410: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:00:46,533: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:00:48,533: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 14:00:48,550: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 14:00:50,551: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:00:50,572: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:00:52,573: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:00:52,579: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:00:52,592: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 14:00:52,896: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 14:00:56,908: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:00:56,926: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:00:58,927: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:00:58,934: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:00:58,944: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:00:59,065: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:01:01,066: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 14:01:01,077: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 14:01:01,522: INFO: Driver quitting
+2024-08-01 14:01:04,086: INFO: Driver quitted
+2024-08-01 14:10:29,527: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:10:34,995: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:10:35,011: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:10:36,485: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:10:36,485: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 14:10:36,500: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 14:10:36,500: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:10:36,512: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:10:36,534: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:10:36,611: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:10:36,611: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:10:36,622: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:10:36,630: INFO: None value changed
+2024-08-01 14:10:36,810: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:10:36,833: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:10:36,849: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:10:36,929: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:10:36,930: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:10:36,942: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:10:36,952: INFO: None value changed
+2024-08-01 14:10:42,028: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 14:10:42,044: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 14:10:42,062: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 14:10:42,180: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 14:10:45,183: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:10:45,237: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:10:45,238: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:10:45,275: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:10:47,277: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:10:47,289: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:10:47,306: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 14:10:47,652: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 14:10:51,654: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:10:51,677: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:10:51,678: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:10:51,691: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:10:53,693: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:10:53,702: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:10:53,724: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:10:53,925: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:10:55,926: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 14:10:55,938: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 14:10:57,939: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:10:57,951: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:10:59,952: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:10:59,961: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:10:59,985: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 14:11:00,362: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 14:11:04,364: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:11:04,377: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:11:06,378: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:11:06,385: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:11:06,397: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:11:06,479: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:11:08,481: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 14:11:08,494: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 14:11:08,693: INFO: Driver quitting
+2024-08-01 14:11:11,168: INFO: Driver quitted
+2024-08-01 14:14:04,780: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:14:08,695: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:14:08,707: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 14:14:09,825: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 14:14:09,825: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 14:14:09,840: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 14:14:09,841: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:14:09,854: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:14:09,872: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:14:09,942: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:14:09,942: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 14:14:09,952: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 14:14:09,959: INFO: None value changed
+2024-08-01 14:14:10,116: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:14:10,138: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:14:10,160: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 14:14:10,244: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 14:14:10,244: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 14:14:10,259: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 14:14:10,272: INFO: None value changed
+2024-08-01 14:14:15,348: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 14:14:15,367: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 14:14:15,387: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 14:14:15,491: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 14:14:18,492: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:14:18,521: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:14:18,522: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:14:18,534: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:14:20,536: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 14:14:20,549: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 14:14:20,575: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 14:14:21,100: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 14:14:25,101: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:14:25,116: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:14:25,117: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:14:25,126: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:14:27,128: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:14:27,137: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:14:27,149: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:14:27,269: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:14:29,284: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 14:14:29,298: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 14:14:31,300: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:14:31,311: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:14:33,312: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 14:14:33,319: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 14:14:33,331: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 14:14:33,680: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 14:14:37,683: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:14:37,690: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:14:39,691: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 14:14:39,704: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 14:14:39,718: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 14:14:39,788: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 14:14:41,791: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 14:14:41,804: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 14:14:41,948: INFO: Driver quitting
+2024-08-01 14:14:44,451: INFO: Driver quitted
+2024-08-01 16:49:59,507: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:50:05,359: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:50:05,378: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:50:07,739: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:50:07,740: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 16:50:07,822: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 16:50:07,823: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:50:07,867: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:50:07,992: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:50:08,539: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:50:08,540: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:50:08,568: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:50:08,608: INFO: None value changed
+2024-08-01 16:50:09,319: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:50:09,341: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:50:09,363: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:50:09,456: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:50:09,457: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:50:09,489: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:50:09,525: INFO: None value changed
+2024-08-01 16:50:14,644: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 16:50:14,655: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 16:50:14,670: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 16:50:14,752: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 16:50:17,752: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:50:17,776: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:50:17,777: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:50:17,796: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:50:19,812: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:50:19,945: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:50:19,975: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 16:50:21,661: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 16:50:26,067: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:50:26,358: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:50:26,359: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:50:26,375: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:50:28,377: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:50:28,394: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:50:28,419: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:50:29,339: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:50:31,345: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 16:50:31,415: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 16:50:33,416: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button
+2024-08-01 16:50:33,430: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button found
+2024-08-01 16:50:35,431: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button
+2024-08-01 16:50:35,444: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button found
+2024-08-01 16:50:35,465: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 16:50:35,586: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 16:50:39,640: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:50:40,035: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:50:42,036: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:50:42,047: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:50:42,063: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:50:43,291: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:50:45,291: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 16:50:45,318: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 16:50:45,601: INFO: Driver quitting
+2024-08-01 16:50:48,189: INFO: Driver quitted
+2024-08-01 16:51:24,930: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:51:28,665: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:51:28,696: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:51:30,181: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:51:30,181: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 16:51:30,197: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 16:51:30,198: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:51:30,212: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:51:30,230: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:51:30,309: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:51:30,309: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:51:30,319: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:51:30,326: INFO: None value changed
+2024-08-01 16:51:30,491: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:51:30,510: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:51:30,525: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:51:30,595: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:51:30,596: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:51:30,609: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:51:30,617: INFO: None value changed
+2024-08-01 16:51:35,674: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 16:51:35,713: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 16:51:35,905: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 16:51:36,699: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 16:51:39,701: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:51:39,784: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:51:39,785: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:51:39,820: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:51:41,916: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:51:43,053: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:51:43,101: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 16:51:43,816: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 16:51:47,820: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:51:47,842: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:51:47,843: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:51:47,856: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:51:49,913: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:51:50,021: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:51:50,053: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:51:50,258: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:51:52,259: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 16:51:52,288: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 16:51:54,289: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 16:51:54,312: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 16:51:56,949: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 16:51:57,073: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 16:51:57,245: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 16:51:59,017: INFO: Driver quitting
+2024-08-01 16:52:03,308: INFO: Driver quitted
+2024-08-01 16:52:48,257: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:52:53,066: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:52:53,079: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:52:54,120: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:52:54,121: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 16:52:54,139: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 16:52:54,140: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:52:54,154: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:52:54,172: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:52:54,262: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:52:54,262: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:52:54,273: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:52:54,285: INFO: None value changed
+2024-08-01 16:52:54,438: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:52:54,454: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:52:54,470: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:52:54,539: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:52:54,539: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:52:54,552: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:52:54,559: INFO: None value changed
+2024-08-01 16:52:59,618: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 16:52:59,642: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 16:52:59,670: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 16:52:59,802: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 16:53:02,803: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:53:02,822: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:53:02,823: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:53:02,834: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:53:04,836: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:53:04,853: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:53:04,879: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 16:53:05,455: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 16:53:09,458: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:53:09,471: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:53:09,471: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:53:09,480: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:53:11,481: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:53:11,489: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:53:11,499: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:53:11,622: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:53:13,623: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 16:53:13,638: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 16:53:15,638: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 16:53:15,651: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 16:53:17,653: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 16:53:17,661: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 16:53:17,673: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 16:53:18,072: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 16:53:22,073: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:53:22,082: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:53:24,083: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:53:24,090: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:53:24,103: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:53:24,209: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:53:26,210: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 16:53:26,223: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 16:53:26,427: INFO: Driver quitting
+2024-08-01 16:53:28,904: INFO: Driver quitted
+2024-08-01 16:54:21,384: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:54:25,996: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:54:26,011: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 16:54:27,289: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 16:54:27,290: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 16:54:27,324: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 16:54:27,324: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:54:27,338: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:54:27,356: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:54:27,450: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:54:27,450: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 16:54:27,463: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 16:54:27,471: INFO: None value changed
+2024-08-01 16:54:27,677: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:54:27,701: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:54:27,719: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 16:54:27,805: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 16:54:27,806: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 16:54:27,819: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 16:54:27,827: INFO: None value changed
+2024-08-01 16:54:32,966: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 16:54:32,979: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 16:54:32,990: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 16:54:33,065: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 16:54:36,067: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:54:36,088: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:54:36,089: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:54:36,106: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:54:38,108: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 16:54:38,120: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 16:54:38,147: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 16:54:38,655: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 16:54:42,656: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:54:42,669: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:54:42,670: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:54:42,683: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:54:44,684: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:54:44,693: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:54:44,708: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:54:44,866: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:54:46,867: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 16:54:46,889: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 16:54:48,890: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 16:54:48,905: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 16:54:50,907: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 16:54:50,914: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 16:54:50,928: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 16:54:51,400: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 16:54:55,401: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:54:55,414: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:54:57,415: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 16:54:57,425: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 16:54:57,438: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 16:54:57,516: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 16:54:59,517: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 16:54:59,529: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 16:54:59,724: INFO: Driver quitting
+2024-08-01 16:55:02,197: INFO: Driver quitted
+2024-08-01 17:13:27,693: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:13:32,408: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:13:32,423: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:13:33,805: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:13:33,806: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:13:33,824: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:13:33,824: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:13:33,839: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:13:33,859: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:13:33,940: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:13:33,940: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:13:33,951: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:13:33,958: INFO: None value changed
+2024-08-01 17:13:34,143: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:13:34,163: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:13:34,181: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:13:34,270: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:13:34,270: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:13:34,285: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:13:34,297: INFO: None value changed
+2024-08-01 17:13:39,391: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:13:39,413: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:13:39,432: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:13:39,488: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:13:42,489: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:13:42,502: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:13:42,503: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:13:42,521: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:13:44,521: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:13:44,541: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:13:44,555: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:13:44,854: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:13:48,855: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-08-01 17:13:48,868: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-08-01 17:13:50,869: INFO: Searching for element by xpath //div[@class='MuiBox-root css-1bicmub']
+2024-08-01 17:13:50,881: INFO: Element by xpath //div[@class='MuiBox-root css-1bicmub'] found
+2024-08-01 17:13:50,894: INFO: Clicking on MuiBox-root css-1bicmub
+2024-08-01 17:13:51,160: INFO: MuiBox-root css-ryfr2d clicked
+2024-08-01 17:13:51,161: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:13:51,434: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:13:51,435: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:13:51,468: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:13:55,292: INFO: Searching for element by xpath //div[@class='MuiBox-root css-ryfr2d']
+2024-08-01 17:13:55,311: INFO: Element by xpath //div[@class='MuiBox-root css-ryfr2d'] found
+2024-08-01 17:13:55,328: INFO: Clicking on MuiBox-root css-ryfr2d
+2024-08-01 17:13:55,511: INFO: MuiBox-root css-ryfr2d clicked
+2024-08-01 17:13:55,512: INFO: Searching for element by xpath //div[@class='MuiBox-root css-v7v99c']
+2024-08-01 17:13:55,753: INFO: Element by xpath //div[@class='MuiBox-root css-v7v99c'] found
+2024-08-01 17:13:55,754: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:13:55,769: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:13:57,655: INFO: Driver quitting
+2024-08-01 17:14:00,166: INFO: Driver quitted
+2024-08-01 17:27:43,420: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:27:47,201: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:27:47,218: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:27:48,632: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:27:48,632: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:27:48,650: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:27:48,650: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:27:48,662: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:27:48,679: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:27:48,749: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:27:48,749: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:27:48,758: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:27:48,765: INFO: None value changed
+2024-08-01 17:27:48,944: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:27:48,964: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:27:48,984: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:27:49,058: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:27:49,058: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:27:49,070: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:27:49,080: INFO: None value changed
+2024-08-01 17:27:54,148: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:27:54,157: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:27:54,165: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:27:54,238: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:27:57,239: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:27:57,264: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:27:57,264: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:27:57,284: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:27:59,286: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:27:59,299: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:27:59,319: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:27:59,769: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:28:03,770: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:28:03,791: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:28:03,791: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:28:03,798: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:28:05,799: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:28:05,807: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:28:05,816: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:28:05,937: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:28:07,938: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:28:07,953: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:28:09,953: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 17:28:09,964: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 17:28:11,965: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button
+2024-08-01 17:28:11,971: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[1]/button found
+2024-08-01 17:28:11,980: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:28:12,275: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 17:28:16,276: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:28:16,284: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:28:18,285: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:28:18,292: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:28:18,303: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:28:18,399: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:28:20,400: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 17:28:20,410: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 17:28:20,425: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:28:20,437: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:28:20,437: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:28:20,451: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:28:21,240: INFO: Driver quitting
+2024-08-01 17:28:23,852: INFO: Driver quitted
+2024-08-01 17:31:14,437: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:31:14,941: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:31:14,962: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:31:18,826: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:31:18,828: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:31:18,901: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:31:18,902: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:31:18,931: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:31:18,974: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:31:19,135: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:31:19,136: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:31:19,157: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:31:19,169: INFO: None value changed
+2024-08-01 17:31:19,393: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:31:19,427: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:31:19,454: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:31:19,574: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:31:19,575: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:31:19,593: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:31:19,606: INFO: None value changed
+2024-08-01 17:31:24,711: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:31:24,734: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:31:24,756: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:31:24,868: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:31:27,869: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:31:27,890: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:31:27,891: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:31:27,912: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:31:29,914: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:31:29,928: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:31:29,951: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:31:30,363: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:31:34,364: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:31:34,400: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:31:34,401: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:31:34,420: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:31:36,421: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:31:36,429: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:31:36,442: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:31:37,137: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:31:39,138: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:31:39,154: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:31:41,156: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button
+2024-08-01 17:31:41,584: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button found
+2024-08-01 17:31:43,736: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button
+2024-08-01 17:31:44,066: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[2]/button found
+2024-08-01 17:31:44,092: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:31:44,241: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 17:31:48,243: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:31:48,261: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:31:50,263: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:31:50,270: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:31:50,283: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:31:51,523: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:31:53,525: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 17:31:53,539: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 17:31:53,555: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:31:53,571: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:31:53,571: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:31:53,593: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:31:55,409: INFO: Driver quitting
+2024-08-01 17:31:57,880: INFO: Driver quitted
+2024-08-01 17:32:45,215: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:32:49,742: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:32:49,761: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:32:51,360: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:32:51,361: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:32:51,418: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:32:51,419: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:32:51,484: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:32:51,531: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:32:51,697: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:32:51,698: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:32:51,714: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:32:51,726: INFO: None value changed
+2024-08-01 17:32:52,014: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:32:52,049: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:32:52,077: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:32:52,185: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:32:52,186: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:32:52,204: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:32:52,216: INFO: None value changed
+2024-08-01 17:32:57,300: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:32:57,314: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:32:57,325: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:32:57,391: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:33:00,392: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:33:00,422: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:33:00,423: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:33:00,439: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:33:02,441: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:33:02,765: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:33:02,858: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:33:03,861: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:33:07,865: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:33:07,883: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:33:07,884: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:33:07,896: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:33:09,898: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:33:09,913: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:33:09,927: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:33:10,413: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:33:12,485: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:33:12,656: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:33:14,731: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 17:33:15,509: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 17:33:17,511: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button
+2024-08-01 17:33:17,521: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[3]/button found
+2024-08-01 17:33:17,540: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:33:17,994: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 17:33:21,995: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:33:22,009: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:33:24,011: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:33:24,211: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:33:24,365: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:33:24,752: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:33:26,753: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 17:33:26,766: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 17:33:26,781: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:33:26,797: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:33:26,798: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:33:26,823: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:33:28,619: INFO: Driver quitting
+2024-08-01 17:33:31,172: INFO: Driver quitted
+2024-08-01 17:33:57,226: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:34:01,470: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:34:01,496: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:34:03,008: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:34:03,009: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:34:03,063: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:34:03,064: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:34:03,094: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:34:03,138: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:34:03,275: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:34:03,275: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:34:03,292: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:34:03,306: INFO: None value changed
+2024-08-01 17:34:03,476: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:34:03,508: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:34:03,529: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:34:03,620: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:34:03,620: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:34:03,638: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:34:03,651: INFO: None value changed
+2024-08-01 17:34:08,732: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:34:08,752: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:34:08,799: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:34:08,922: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:34:11,924: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:34:11,952: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:34:11,953: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:34:11,971: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:34:13,973: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:34:13,987: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:34:14,013: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:34:14,405: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:34:18,425: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:34:18,485: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:34:18,486: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:34:18,506: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:34:20,507: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:34:20,516: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:34:20,531: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:34:20,687: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:34:22,689: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:34:22,709: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:34:24,709: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:34:24,722: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:34:26,723: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:34:26,730: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:34:26,744: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:34:27,962: INFO: Driver quitting
+2024-08-01 17:34:30,370: INFO: Driver quitted
+2024-08-01 17:34:55,102: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:34:58,794: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:34:58,811: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:35:00,067: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:35:00,067: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:35:00,093: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:35:00,093: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:35:00,108: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:35:00,127: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:35:00,208: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:35:00,208: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:35:00,221: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:35:00,228: INFO: None value changed
+2024-08-01 17:35:00,405: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:35:00,431: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:35:00,452: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:35:00,545: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:35:00,545: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:35:00,558: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:35:00,567: INFO: None value changed
+2024-08-01 17:35:05,640: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:35:05,652: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:35:05,664: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:35:05,753: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:35:08,754: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:35:08,772: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:35:08,774: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:35:08,794: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:35:10,796: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:35:10,805: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:35:10,823: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:35:11,191: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:35:15,191: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:35:15,203: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:35:15,204: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:35:15,211: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:35:17,211: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:35:17,218: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:35:17,230: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:35:17,359: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:35:19,361: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:35:19,371: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:35:21,372: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:35:21,384: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:35:23,384: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:35:23,391: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:35:23,400: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:35:23,680: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 17:35:27,681: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:35:27,691: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:35:29,692: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:35:29,699: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:35:29,710: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:35:29,861: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:35:31,862: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 17:35:31,874: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 17:35:31,889: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:35:31,899: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:35:31,899: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:35:31,917: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:35:33,477: INFO: Driver quitting
+2024-08-01 17:35:36,036: INFO: Driver quitted
+2024-08-01 17:37:47,738: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:37:51,713: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:37:51,726: INFO: Navigating to http://10.20.0.165:8998/app/login
+2024-08-01 17:37:52,866: INFO: http://10.20.0.165:8998/app/login opened
+2024-08-01 17:37:52,866: INFO: Searching for element by xpath //img[@src='/HiLabs_Primary_RGB.svg']
+2024-08-01 17:37:52,883: INFO: Element by xpath //img[@src='/HiLabs_Primary_RGB.svg'] found
+2024-08-01 17:37:52,883: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:37:52,896: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:37:52,914: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:37:52,993: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:37:52,993: INFO: Searching for element by xpath //input[@name='email']
+2024-08-01 17:37:53,002: INFO: Element by xpath //input[@name='email'] found
+2024-08-01 17:37:53,009: INFO: None value changed
+2024-08-01 17:37:53,199: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:37:53,216: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:37:53,235: INFO: Clicking on MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng
+2024-08-01 17:37:53,316: INFO: MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng clicked
+2024-08-01 17:37:53,317: INFO: Searching for element by xpath //input[@name='password']
+2024-08-01 17:37:53,329: INFO: Element by xpath //input[@name='password'] found
+2024-08-01 17:37:53,340: INFO: None value changed
+2024-08-01 17:37:58,411: INFO: Searching for element by xpath //button[@type='submit']
+2024-08-01 17:37:58,425: INFO: Element by xpath //button[@type='submit'] found
+2024-08-01 17:37:58,435: INFO: Clicking on MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4
+2024-08-01 17:37:58,527: INFO: MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-13po3m4 clicked
+2024-08-01 17:38:01,529: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:38:01,567: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:38:01,568: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:38:01,582: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:38:03,583: INFO: Searching for element by xpath //p[normalize-space()='Roster Tracker - New']
+2024-08-01 17:38:03,595: INFO: Element by xpath //p[normalize-space()='Roster Tracker - New'] found
+2024-08-01 17:38:03,609: INFO: Clicking on MuiTypography-root MuiTypography-body1 css-rq20lf
+2024-08-01 17:38:04,004: INFO: MuiTypography-root MuiTypography-body1 css-rq20lf clicked
+2024-08-01 17:38:08,006: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:38:08,017: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:38:08,018: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:38:08,024: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:38:10,024: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:38:10,030: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:38:10,046: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:38:10,184: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:38:12,189: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-content']
+2024-08-01 17:38:12,206: INFO: Element by xpath //div[@class='rs-picker-daterange-content'] found
+2024-08-01 17:38:14,207: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:38:14,217: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:38:16,219: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button
+2024-08-01 17:38:16,227: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[1]/div/div[4]/button found
+2024-08-01 17:38:16,238: INFO: Clicking on rs-btn rs-btn-link rs-btn-sm
+2024-08-01 17:38:16,527: INFO: rs-btn rs-btn-link rs-btn-sm clicked
+2024-08-01 17:38:20,528: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:38:20,535: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:38:22,536: INFO: Searching for element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input
+2024-08-01 17:38:22,544: INFO: Element by xpath /html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[1]/input found
+2024-08-01 17:38:22,555: INFO: Clicking on rs-picker-toggle-textbox rs-picker-toggle-read-only
+2024-08-01 17:38:22,655: INFO: rs-picker-toggle-textbox clicked
+2024-08-01 17:38:24,655: INFO: Searching for element by xpath //div[@class='rs-picker-daterange-header']
+2024-08-01 17:38:24,674: INFO: Element by xpath //div[@class='rs-picker-daterange-header'] found
+2024-08-01 17:38:24,690: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button
+2024-08-01 17:38:24,701: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button found
+2024-08-01 17:38:26,726: INFO: Searching for element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button
+2024-08-01 17:38:26,773: INFO: Element by xpath /html/body/div[4]/div/div/div/div[2]/div[2]/div/button found
+2024-08-01 17:38:26,785: INFO: Clicking on rs-btn rs-btn-primary rs-btn-sm
+2024-08-01 17:38:26,854: INFO: rs-btn rs-btn-primary rs-btn-sm clicked
+2024-08-01 17:38:28,855: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:38:28,875: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:38:28,875: INFO: Searching for element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7']
+2024-08-01 17:38:28,895: INFO: Element by xpath //td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-19115l7'] found
+2024-08-01 17:38:30,090: INFO: Driver quitting
+2024-08-01 17:38:32,570: INFO: Driver quitted
