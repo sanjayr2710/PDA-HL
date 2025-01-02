@@ -18,7 +18,7 @@ class TestLogin(unittest.TestCase):
         login = LoginPage(self.driver)
         login.open()
         # Read data from Excel
-        file_path1 = "C:/Users/sanjay.r/PycharmProjects/Roster Automation/Input Files/UserCreds.xlsx"
+        file_path1 = "C:/Users/AL93033/PycharmProjects/PDAHL/PDA-HL/Input Files/UserCreds.xlsx"
         columns = ['username', 'password']
         data = XlsReader.get_data_from_xlsx(file_path1, 'EHUSERCREDS', columns)
 

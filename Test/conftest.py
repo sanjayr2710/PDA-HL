@@ -4,7 +4,7 @@ import pytest
 from allure_commons.types import AttachmentType
 from Drivers.driver_factory import DriverFactory
 
-CONFIG_PATH = "C:/Users/sanjay.r/PycharmProjects/Roster Automation/config.json"
+CONFIG_PATH = "C:/Users/AL93033/PycharmProjects/PDAHL/PDA-HL/config.json"
 DEFAULT_WAIT_TIME = 10
 SUPPORTED_BROWSERS = ["chrome", "firefox", "edge"]
 DEFAULT_URL = ""

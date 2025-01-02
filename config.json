@@ -1,6 +1,6 @@
 {
   "browser": "chrome",
   "headless_mode": false,
-  "base_url": "http://10.20.0.165:8998/app/login",
+  "base_url": "https://mcheck.elixruat.awsdns.internal.das/auth/login",
   "timeout": 10
 }
