@@ -1,10 +1,11 @@
 import json
+import os
 import allure
 import pytest
 from allure_commons.types import AttachmentType
 from Drivers.driver_factory import DriverFactory
 
-CONFIG_PATH = "C:/Users/AL93033/PycharmProjects/PDAHL/PDA-HL/config.json"
+CONFIG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'config.json'))
 DEFAULT_WAIT_TIME = 10
 SUPPORTED_BROWSERS = ["chrome", "firefox", "edge"]
 DEFAULT_URL = ""

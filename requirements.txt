@@ -1,17 +1,15 @@
-
-
-pytest==8.3.4 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-pytest-base-url==2.1.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-pytest-selenium==4.1.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-selenium==4.27.1 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-webdriver-manager==4.0.2 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-urllib3==2.3.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-chromedriver-binary==133.0.6932.0.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-chromedriver-py==131.0.6778.204 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-iniconfig==2.0.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-xlrd==2.0.1 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-configparser==7.1.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-openpyxl==3.1.5 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-packaging==24.2 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-pyOpenSSL==24.3.0 --trusted-host pypi.org --trusted-host files.pythonhosted.org
-requests==2.32.3 --trusted-host pypi.org --trusted-host files.pythonhosted.org
+pytest==8.3.4
+pytest-base-url==2.1.0 
+pytest-selenium==4.1.0 
+selenium==4.27.1 
+webdriver-manager==4.0.2 
+urllib3==2.3.0 
+chromedriver-binary==133.0.6932.0.0 
+chromedriver-py==131.0.6778.204 
+iniconfig==2.0.0 
+xlrd==2.0.1 
+configparser==7.1.0 
+openpyxl==3.1.5 
+packaging==24.2 
+pyOpenSSL==24.3.0 
+requests==2.32.3 
