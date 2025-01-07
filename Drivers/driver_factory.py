@@ -18,7 +18,7 @@ class DriverFactory:
             options.add_argument("--disable-dev-shm-usage")  # Overcomes limited resources in containers
             options.add_argument("--disable-gpu")  # Disables GPU hardware acceleration (optional for stability)
             options.add_argument("--window-size=1920,1080")  # Set fixed size for headless
-            options.add_argument("--remote-debugging-port=9222")  # Debugging support if required
+            # options.add_argument("--remote-debugging-port=9222")  # Debugging support if required
 
             # Enable headless mode if configured
             if config.get("headless_mode", False):
