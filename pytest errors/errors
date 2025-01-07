@@ -1,0 +1,170 @@
+C:\Users\AL93033\PycharmProjects\PDAHL\PDA-HL\venv\Scripts\python.exe "C:/Program Files (x86)/JetBrains/PyCharm Community Edition 2022.2.1/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target test_executive_dashboard.py::TestLogin.test_Login_success
+Testing started at 5:10 AM ...
+Launching pytest with arguments test_executive_dashboard.py::TestLogin::test_Login_success --no-header --no-summary -q in C:\Users\AL93033\PycharmProjects\PDAHL\PDA-HL\Test\Elixir\Executive_Dashboard
+
+============================= test session starts =============================
+collecting ... collected 1 item
+
+test_executive_dashboard.py::TestLogin::test_Login_success ERROR         [100%]
+test setup failed
+request = <SubRequest 'setup' for <TestCaseFunction test_Login_success>>
+config = {'base_url': 'https://mcheck.elixruat.awsdns.internal.das/auth/login', 'browser': 'chrome', 'headless_mode': False, 'timeout': 10}
+
+    @pytest.fixture()
+    def setup(request, config):
+        testcase_name = request.node.name
+>       driver = DriverFactory.get_driver(config, testcase_name)
+
+..\..\conftest.py:42:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\Drivers\driver_factory.py:31: in get_driver
+    driver_obj = webdriver.Chrome(
+..\..\..\venv\lib\site-packages\selenium\webdriver\chrome\webdriver.py:45: in __init__
+    super().__init__(
+..\..\..\venv\lib\site-packages\selenium\webdriver\chromium\webdriver.py:66: in __init__
+    super().__init__(command_executor=executor, options=options)
+..\..\..\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:241: in __init__
+    self.start_session(capabilities)
+..\..\..\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:329: in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+..\..\..\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x054202E0>
+response = {'status': 500, 'value': '{"value":{"error":"session not created","message":"session not created: This version of Chro...\tRtlInitializeExceptionChain [0x774AC0CB+107]\\n\\tRtlClearBits [0x774AC04F+191]\\n\\t(No symbol) [0x00000000]\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -> None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "<anonymous>")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "<anonymous>")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+>       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+E       Current browser version is 131.0.6778.205 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+E       Stacktrace:
+E       Backtrace:
+E       	GetHandleVerifier [0x002CA813+48355]
+E       	(No symbol) [0x0025C4B1]
+E       	(No symbol) [0x00165358]
+E       	(No symbol) [0x001861AC]
+E       	(No symbol) [0x00181EF3]
+E       	(No symbol) [0x00180579]
+E       	(No symbol) [0x001B0C55]
+E       	(No symbol) [0x001B093C]
+E       	(No symbol) [0x001AA536]
+E       	(No symbol) [0x001882DC]
+E       	(No symbol) [0x001893DD]
+E       	GetHandleVerifier [0x0052AABD+2539405]
+E       	GetHandleVerifier [0x0056A78F+2800735]
+E       	GetHandleVerifier [0x0056456C+2775612]
+E       	GetHandleVerifier [0x003551E0+616112]
+E       	(No symbol) [0x00265F8C]
+E       	(No symbol) [0x00262328]
+E       	(No symbol) [0x0026240B]
+E       	(No symbol) [0x00254FF7]
+E       	BaseThreadInitThunk [0x75637BA9+25]
+E       	RtlInitializeExceptionChain [0x774AC0CB+107]
+E       	RtlClearBits [0x774AC04F+191]
+E       	(No symbol) [0x00000000]
+
+..\..\..\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: SessionNotCreatedException
+
+
+
+
+
+
+
+============================== 1 error in 44.85s ==============================
+
+Process finished with exit code 1
+
+
+
+
+
+
