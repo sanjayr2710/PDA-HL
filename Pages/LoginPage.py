@@ -7,14 +7,15 @@ from helpers.UtilFuntions import WaitAndAssert, HardWait, XlsReader
 class LoginPage(PageBase):
     def __init__(self, driver):
         super().__init__(driver)
+        self.base_url = "http://10.60.0.62:83/auth/login"  # Replace with the actual login URL
 
-    def Login_to_RA(self, username=None, passWord=None):
+    def open(self):
+        super().open(self.base_url)
+
+    def Login_to_RA(self, username=None, password=None):
         self.open()
-        loginHilabsLogo = LoginPageLocators.HilabsLOGO
-        WaitAndAssert.waitAndAssert(self.driver, loginHilabsLogo, 10)
-        self.driver.find_element(*LoginPageLocators.user_id_textbox).click()
+        WaitAndAssert.waitAndAssert(self.driver, LoginPageLocators.HilabsLOGO, 10)
         self.driver.find_element(*LoginPageLocators.user_id_textbox).send_keys(username)
-        self.driver.find_element(*LoginPageLocators.password_textbox).click()
-        self.driver.find_element(*LoginPageLocators.password_textbox).send_keys(passWord)
+        self.driver.find_element(*LoginPageLocators.password_textbox).send_keys(password)
         HardWait.hard_wait(5)
         self.driver.find_element(*LoginPageLocators.loginBtn).click()
