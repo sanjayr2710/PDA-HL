@@ -1,7 +1,7 @@
 import json
 import os
 from Base.page_base import PageBase
-from Locators.BCBSMA.Login_Locators import LoginPageLocators
+from Locators.Elixir.Login_Locators import LoginPageLocators
 from helpers.UtilFuntions import WaitAndAssert, HardWait
 
 
@@ -38,14 +38,14 @@ class LoginPage(PageBase):
     def open(self):
         super().open(self.base_url)
 
-    def Login_to_RA(self):
+    def Login_to_PDA(self):
         self.open()
         try:
             config_path=os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'config.json'))
             with open(config_path, 'r') as config_file:
                 config = json.load(config_file)
-            username = config.get("BCBSMA_USERNAME")
-            password = config.get("BCBSMA_PASSWORD")
+            username = config.get("Elixir_USERNAME")
+            password = config.get("Elixir_PASSWORD")
         except Exception as e:
             raise Exception(f"Username and Password not found for Client BCBSMA: {e}")
 
@@ -54,3 +54,9 @@ class LoginPage(PageBase):
         self.driver.find_element(*LoginPageLocators.password_textbox).send_keys(password)
         HardWait.hard_wait(5)
         self.driver.find_element(*LoginPageLocators.loginBtn).click()
+
+    def Logout_from_PDA(self):
+        HardWait.hard_wait(10)
+        WaitAndAssert.waitAndAssert(self.driver, LoginPageLocators.logoutBtn, 10)
+        self.driver.find_element(*LoginPageLocators.logoutBtn).click()
+        HardWait.hard_wait(10)

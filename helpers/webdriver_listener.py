@@ -6,7 +6,7 @@ from selenium.webdriver.support.events import AbstractEventListener
 
 
 class WebDriverListener(AbstractEventListener):
-    def __init__(self, testcase_name, base_directory='C:/Users/sanjay.r/OneDrive - H-Ilabs/Desktop/DV/Pytest/PDA-HL/PDA-VDI/PDA-HL/Results'):
+    def __init__(self, testcase_name, base_directory=os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Results'))):
         self.base_directory = base_directory
         self.setup_logger(testcase_name)
 

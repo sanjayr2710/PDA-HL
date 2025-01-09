@@ -165,6 +165,28 @@ Process finished with exit code 1
 
 
 
+PS C:\Users\AL93033\PycharmProjects\PDAHL\New folder (2)\PDA-HL> .venv\Scripts\activate
+.venv\Scripts\activate : The module '.venv' could not be loaded. For more information, run 'Import-Module .venv'.
+At line:1 char:1
++ .venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.venv\Scripts\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
 
+PS C:\Users\AL93033\PycharmProjects\PDAHL\New folder (2)\PDA-HL> .venv\Scripts\activate
+.venv\Scripts\activate : The module '.venv' could not be loaded. For more information, run 'Import-Module .venv'.
+At line:1 char:1
++ .venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.venv\Scripts\activate:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\AL93033\PycharmProjects\PDAHL\New folder (2)\PDA-HL> run 'Import-Module .venv'
+run : The term 'run' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ run 'Import-Module .venv'
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (run:String) [], CommandNotFoundException
 
 
