@@ -13,40 +13,48 @@ DEFAULT_URL = ""
 
 @pytest.fixture(scope='session')
 def config():
-    config_file = open(CONFIG_PATH)
-    return json.load(config_file)
-
-
-@pytest.fixture(scope="session")
-def browser_setup(config):
-    if "browser" not in config:
-        raise Exception('The config file does not contain "browser"')
-    elif config["browser"] not in SUPPORTED_BROWSERS:
-        raise Exception(f'"{config["browser"]}" is not a supported browser')
-    return config["browser"]
+    with open(CONFIG_PATH) as config_file:
+        return json.load(config_file)
 
 
 @pytest.fixture(scope='session')
-def wait_time_setup(config):
-    return config['wait_time'] if 'wait_time' in config else DEFAULT_WAIT_TIME
-
-
-@pytest.fixture(scope='session')
-def url_setup(config):
-    return config["base_url"] if "base_url" in config else DEFAULT_URL
-
-
-@pytest.fixture()
-def setup(request, config):
-    testcase_name = request.node.name
-    driver = DriverFactory.get_driver(config, testcase_name)
-    driver.implicitly_wait(config["timeout"])
-    request.cls.driver = driver
-    before_failed = request.session.testsfailed
+def driver(config):
+    """
+    Session-scoped WebDriver fixture to ensure a single browser instance for all test cases in a session.
+    """
+    driver = DriverFactory.get_driver(config, "session")
+    driver.implicitly_wait(config.get("timeout", 20))
     if config["browser"] == "firefox":
         driver.maximize_window()
+    yield driver
+    driver.quit()
+
+
+@pytest.fixture(scope='function', autouse=True)
+def test_setup(request, driver):
+    """
+    Function-scoped fixture to attach the WebDriver instance to each test case and handle failures.
+    """
+    request.cls.driver = driver
+    before_failed = request.session.testsfailed
     yield
-    if request.session.testsfailed != before_failed:
+    if request.session.testsfailed > before_failed:
         allure.attach(driver.get_screenshot_as_png(),
                       name="Test failed", attachment_type=AttachmentType.PNG)
-    driver.quit()
+
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    """
+    Hook to capture test results and attach screenshots for both passed and failed test cases.
+    """
+    outcome = yield
+    report = outcome.get_result()
+    driver = getattr(item.instance, 'driver', None)
+
+    # Attach screenshot for both passed and failed tests
+    if report.when == "call" and driver:
+        allure.attach(
+            driver.get_screenshot_as_png(),
+            name=f"Screenshot ({report.outcome.upper()}) - {item.name}",
+            attachment_type=AttachmentType.PNG
+        )

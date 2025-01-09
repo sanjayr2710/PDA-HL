@@ -1,0 +1,10 @@
+to run testcases without reporting
+	pytest Path_of_the_testcase
+
+to run testcases with reporting
+step 1: Run the testcases with below command.
+	pytest Test/BCBSMA/Executive_Dashboard/test_executive_dashboard.py --alluredir=allure-results
+step 2:	Once the testcases are executed successfully, use the below code to generate the report
+	C:\allure-2.32.0\bin\allure generate allure-results --clean -o allure-report
+step 3: Once the report i generated to view the report use the below command
+	C:\allure-2.32.0\bin\allure open allure-report

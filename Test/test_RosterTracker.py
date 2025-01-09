@@ -1,16 +1,14 @@
 import unittest
 import pytest
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 
 from Pages.LoginPage import LoginPage
 from Pages.UploadNewRosterPage import UploadNewRosterPage
 from Pages.RosterTrackerPage import RosterTrackerPage
 from helpers.UtilFuntions import XlsReader, HardWait, WaitAndAssert, Capture_Screenshot, helpersUtil
 from Locators.RAMainPage_Locators import RAMainPage_Locators
-from Locators.RosterTracker_Locators import RosterTrackerLocatorsL1, RosterTrackerLocatorsL2, PizzaTrackerL3, ApproveOrEditMappingL3
-from Locators.ExecutiveDashboardLocators import ExecutiveDashboardPageLocators
-from helpers.webdriver_listener import WebDriverListener
+from Locators.RosterTracker_Locators import RosterTrackerLocatorsL1
+from Locators.BCBSMA.ExecutiveDashboardLocators import ExecutiveDashboardPageLocators
 
 
 @pytest.mark.usefixtures("setup")

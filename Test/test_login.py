@@ -1,14 +1,9 @@
 import unittest
 import pytest
-from selenium.webdriver.common.by import By
 
 from Pages.LoginPage import LoginPage
 from helpers.UtilFuntions import XlsReader, WaitAndAssert, HardWait
-from Locators.Login_Locators import LoginPageLocators
-from Locators.ExecutiveDashboardLocators import ExecutiveDashboardPageLocators
-from Locators.RAMainPage_Locators import RAMainPage_Locators
-from Locators.RosterTracker_Locators import RosterTrackerLocatorsL1
-from helpers.UtilFuntions import helpersUtil
+from Locators.BCBSMA.ExecutiveDashboardLocators import ExecutiveDashboardPageLocators
 
 
 @pytest.mark.usefixtures("setup")

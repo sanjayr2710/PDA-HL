@@ -2,5 +2,14 @@
   "browser": "chrome",
   "headless_mode": false,
   "base_url": "http://10.60.0.62:83/auth/login",
-  "timeout": 10
+  "timeout": 10,
+  "client": "BCBSMA",
+  "ElixirURL": "",
+  "BCBSMAURL": "http://10.60.0.62:83/auth/login",
+  "BCBSMA_USERNAME": "srvhlidp00001@hilabs.com",
+  "BCBSMA_PASSWORD": "cHeQupuPav9NIwipRAfew",
+  "CareSourceURL": "http://10.20.4.117:83/auth/login",
+  "MolinaURL": "http://10.20.4.249:82/auth/login",
+  "ScanURL": "http://10.35.1.43/auth/login",
+  "Horizon": "http://10.41.1.22/auth/login"
 }
