@@ -6,10 +6,12 @@ webdriver-manager==4.0.2
 urllib3==2.3.0 
 chromedriver-binary==133.0.6932.0.0 
 chromedriver-py==131.0.6778.204 
-iniconfig==2.0.0 
+iniconfig==2.0.0
 xlrd==2.0.1 
 configparser==7.1.0 
 openpyxl==3.1.5 
 packaging==24.2 
 pyOpenSSL==24.3.0 
 requests==2.32.3
+allure-pytest==2.13.5
+allure-python-commons==2.13.5
