@@ -1,6 +1,0 @@
-Waiting for element with locator: ('xpath', "//img[@src='/bcbsma/logo.svg']")
-Element found
-Waiting for element with locator: ('xpath', "//div[@class='MuiStack-root css-knpqyr']//*[name()='svg']")
-Element found
-Waiting for element with locator: ('xpath', "//div[@title='Logout']//*[name()='svg']")
-Element found

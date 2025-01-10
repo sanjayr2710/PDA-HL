@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","58563","test_Login_success","Test.BCBSMA.Executive_Dashboard","Wed Jan 08 19:42:28 IST 2025","passed","Wed Jan 08 19:43:27 IST 2025","TestLogin","test_executive_dashboard","",""
-"","39367","test_NavigateToExecutiveDB","Test.BCBSMA.Executive_Dashboard","Wed Jan 08 19:43:27 IST 2025","passed","Wed Jan 08 19:44:06 IST 2025","TestLogin","test_executive_dashboard","",""
