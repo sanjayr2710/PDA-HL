@@ -24,7 +24,7 @@ Thumbs.db
 # Ignore Allure report and results
 allure-report/
 allure-results/
-
+Test/__pycache__/conftest.cpython-312-pytest-8.3.4.pyc
 # Ignore compiled binaries
 *.exe
 *.dll

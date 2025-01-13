@@ -13,5 +13,7 @@
   "CareSourceURL": "http://10.20.4.117:83/auth/login",
   "MolinaURL": "http://10.20.4.249:82/auth/login",
   "ScanURL": "http://10.35.1.43/auth/login",
-  "Horizon": "http://10.41.1.22/auth/login"
+  "Horizon": "http://10.41.1.22/auth/login",
+  "SENDER_EMAIL": "PDAAutomation.ReportGenerator@hilabs.com",
+  "SENDER_PASSWORD": "94=pW?9(LGgy$#="
 }
