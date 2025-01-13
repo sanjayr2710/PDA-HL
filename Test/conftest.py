@@ -16,10 +16,10 @@ DEFAULT_WAIT_TIME = 10
 SUPPORTED_BROWSERS = ["chrome", "firefox", "edge"]
 DEFAULT_URL = ""
 
-SMTP_SERVER = "smtp.office365.com"
+SMTP_SERVER = "smtp.office365.com"  # Replace it with your SMTP server
 SMTP_PORT = 587
-SENDER_EMAIL = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'SENDER_EMAIL'))
-SENDER_PASSWORD = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'SENDER_PASSWORD'))
+SENDER_EMAIL = "PDAAutomation.ReportGenerator@hilabs.com"
+SENDER_PASSWORD = "94=pW?9(LGgy$#="
 RECIPIENT_EMAILS = ["sanjay.r@hilabs.com", "ashwini.py@hilabs.com", "ishwar.navale@hilabs.com"]
 
 @pytest.fixture(scope='session')
