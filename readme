@@ -73,3 +73,18 @@ Run testcase in VDI on CMD
 ### **6. Troubleshooting
     * Allure Not Recognized: Ensure Allure CLI is installed and added to the PATH.
     * Email Not Sent: Verify SMTP settings and credentials. Use an app-specific password if Two-Factor Authentication is enabled.
+
+### **7. Mailing feature (how to view the allure report received on mail)
+    mailing feature is implemented, You will be receiving the mail from pdaautomation.reportgenerator@hilabs.com
+    once all the testcases are executed on Local or CI/CD pipeline
+    Steps to view the report
+    step 1:
+        download the zip file received on outlook mail and extract the zip file
+    step 2:
+        Open CMD in the same location (downloads/allure-reports/)
+    step 3:
+        Run the following commands in the directory containing the allure-report folder:
+            python -m http.server 8080
+    step 4:
+        Open the report in your browser
+            http://localhost:8080
