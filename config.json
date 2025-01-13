@@ -1,6 +1,6 @@
 {
   "browser": "chrome",
-  "headless_mode": false,
+  "headless_mode": true,
   "base_url": "http://10.60.0.62:83/auth/login",
   "timeout": 10,
   "client": "BCBSMA",

@@ -18,9 +18,9 @@ DEFAULT_URL = ""
 
 SMTP_SERVER = "smtp.office365.com"  # Replace it with your SMTP server
 SMTP_PORT = 587
-SENDER_EMAIL = "sanjay.r@hilabs.com"
-SENDER_PASSWORD = "Mahadeva@27"
-RECIPIENT_EMAILS = ["ashwini.py@hilabs.com", "ishwar.navale@hilabs.com"]
+SENDER_EMAIL = "PDAAutomation.ReportGenerator@hilabs.com"
+SENDER_PASSWORD = "94=pW?9(LGgy$#="
+RECIPIENT_EMAILS = ["sanjay.r@hilabs.com", "ashwini.py@hilabs.com", "ishwar.navale@hilabs.com"]
 
 @pytest.fixture(scope='session')
 def config():
