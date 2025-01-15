@@ -14,4 +14,5 @@ packaging==24.2
 pyOpenSSL==24.3.0 
 requests==2.32.3 
 allure-pytest==2.13.5 
-allure-python-commons==2.13.5 
+allure-python-commons==2.13.5
+snowflake-connector-python==3.12.4
