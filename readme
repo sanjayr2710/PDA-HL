@@ -1,90 +1,192 @@
 # PDA-HL Automation Framework
-This repository contains an automation framework for executing test cases with and without reporting.
-The framework supports running on both Windows and Linux environments.
 
+## What is this repository for?
+- **Quick Summary**: This repository contains an automation framework for executing UI and Data test cases with and without reporting. The framework supports both Windows and Linux environments.
+- **Version**: 1.0.0
 
-## **Getting Started**
-------------------------------------------------------------
-### **1. Clone the Repository**
-Clone the repository to your local machine:
+---
+
+## How do I get set up?
+
+### Summary of Setup
+Follow the steps below to set up and run the automation framework on your system.
+
+---
+
+### 1. Clone the Repository
+
 git clone <repository-url>
 cd PDA-HL
 
-------------------------------------------------------------
-### **2. Install required dependencies**
-On Windows:
-1. Open CMD
-2. verify Python is installed
-    python --version
-3. Create a virtual environment
-    python -m venv .venv
-4. Activate the virtual environment
-    .venv\Scripts\Activate.ps1
-5. Install dependencies from requirements.txt
-    pip install -r requirements.txt
 
-On Linux:
-1. verify Python is installed
-    python3 --version
-2. create a virtual environment
-    python3 -m venv .venv
-3. Activate the virtual environment
-    source .venv/bin/activate
-4. Install dependencies
-    pip install -r requirements.txt
+---
 
-------------------------------------------------------------
-### **3. Run testcases without reporting **
-	pytest Path_of_the_testcase
+### 2. Configuration
+Ensure the required configurations are set up in `config.json`:
+- URLs for test environments.
+- Timeout settings.
+- Browser preferences.
 
-Run Testcases with reporting on windows
-step 1: Run the testcases with below command.
-	pytest Test/BCBSMA/Executive_Dashboard/test_executive_dashboard.py --alluredir=allure-results
-step 2:	Once the testcases are executed successfully, use the below code to generate the report
-	C:\allure-2.32.0\bin\allure generate allure-results --clean -o allure-report
-step 3: Once the report i generated to view the report use the below command
-	C:\allure-2.32.0\bin\allure open allure-report
+---
 
-Run Testcases with reporting on Linux
-step 1: Run the testcases with below command.
-	pytest Test/(Path to the testcase) --alluredir=allure-results
-step 2:	Once the testcases are executed successfully, use the below code to generate the report
-    allure generate allure-results --clean -o allure-report
-step 3: Once the report i generated to view the report use the below command
-    allure open allure-report
+### 3. Install Dependencies
 
-------------------------------------------------------------
+#### On Windows
+1. Open CMD or PowerShell.
+2. Verify Python is installed:
+   
+   python --version
+   
+3. Create a virtual environment:
+   
+   python -m venv .venv
+   
+4. Activate the virtual environment:
+   
+   .venv\Scripts\Activate.ps1
+   
+5. Install dependencies:
+   
+   pip install -r requirements.txt
+   
 
-Run testcase in VDI on CMD
-1. Verify the Virtual Environment Exists
-    python -m venv .venv
-2. check scripts dir
-    dir .venv\Scripts
-3.  Activate venv
-    .venv\Scripts\Activate.ps1
-4. Once the virtual is activated follow the above scripts
+#### On Linux
+1. Verify Python is installed:
+   
+   python3 --version
+   
+2. Create a virtual environment:
+   
+   python3 -m venv .venv
+   
+3. Activate the virtual environment:
+   
+   source .venv/bin/activate
+   
+4. Install dependencies:
+   
+   pip install -r requirements.txt
+   
+
+---
+
+### 4. Database Configuration
+- For Snowflake database connectivity, ensure the credentials and configurations are securely stored and loaded via configuration files.
+
+---
+
+### 5. How to Run Tests
+
+#### Without Reporting
+
+pytest Path_to_the_testcase
 
 
-### **5. Notes
-    * Ensure Java is installed and JAVA_HOME is set for Allure to work correctly.
-    * Update the config.json file with the appropriate configurations for the environment (e.g., URLs, timeouts, browser settings).
-    * If running on a CI/CD pipeline, ensure the environment supports Allure CLI for report generation.
+#### With Reporting (Allure)
 
-### **6. Troubleshooting
-    * Allure Not Recognized: Ensure Allure CLI is installed and added to the PATH.
-    * Email Not Sent: Verify SMTP settings and credentials. Use an app-specific password if Two-Factor Authentication is enabled.
+##### On Windows
+1. Run the test cases:
+   
+   pytest Test/BCBSMA/Executive_Dashboard/test_executive_dashboard.py --alluredir=allure-results
+   
+2. Generate the report:
+   
+   C:\allure-2.32.0\bin\allure generate allure-results --clean -o allure-report
+   
+3. View the report:
+   
+   C:\allure-2.32.0\bin\allure open allure-report
+   
 
-### **7. Mailing feature (how to view the allure report received on mail)
-    mailing feature is implemented, You will be receiving the mail from pdaautomation.reportgenerator@hilabs.com
-    once all the testcases are executed on Local or CI/CD pipeline
-    Steps to view the report
-    step 1:
-        download the zip file received on outlook mail and extract the zip file
-    step 2:
-        Open CMD in the same location (downloads/allure-reports/)
-    step 3:
-        Run the following commands in the directory containing the allure-report folder:
-            python -m http.server 8080
-    step 4:
-        Open the report in your browser
-            http://localhost:8080
+##### On Linux
+1. Run the test cases:
+   
+   pytest Test/(Path to the testcase) --alluredir=allure-results
+   
+2. Generate the report:
+   
+   allure generate allure-results --clean -o allure-report
+   
+3. View the report:
+   
+   allure open allure-report
+   
+
+---
+
+### 6. Deployment Instructions
+For running on Virtual Desktop Infrastructure (VDI):
+1. Verify the virtual environment exists:
+   
+   python -m venv .venv
+   
+2. Check the `Scripts` directory:
+   
+   dir .venv\Scripts
+   
+3. Activate the virtual environment:
+   
+   .venv\Scripts\Activate.ps1
+   
+4. Follow the steps mentioned above to run tests.
+
+---
+
+## Contribution Guidelines
+
+### Writing Tests
+1. Follow the existing test structure.
+2. Ensure all test cases are self-contained and use the fixtures provided.
+
+### Code Review
+- Code changes must be reviewed by at least one team member before merging.
+
+### Other Guidelines
+- Ensure proper documentation of newly added modules or changes.
+- Follow the project's coding standards and structure.
+
+---
+
+## Who do I talk to?
+
+### Repo Owner or Admin
+- Sanjay R, Ashwini PY, Rohit Chauhan
+
+### Other Contacts
+- Reach out to your project manager or team lead for additional guidance.
+
+---
+
+### 7. Notes
+- Ensure **Java** is installed and `JAVA_HOME` is set for Allure to work correctly.
+- Update the `config.json` file with appropriate configurations for the environment.
+- Ensure the CI/CD pipeline supports Allure CLI for report generation.
+
+---
+
+### 8. Troubleshooting
+
+#### Allure Not Recognized
+- Ensure Allure CLI is installed and added to the `PATH`.
+
+#### Email Not Sent
+- Verify SMTP settings and credentials.
+- Use an app-specific password if Two-Factor Authentication is enabled.
+
+---
+
+### 9. Mailing Feature
+- After test execution, you will receive an email from `pdaautomation.reportgenerator@hilabs.com` with the Allure report attached as a ZIP file.
+
+#### Steps to View the Report
+1. Download and extract the ZIP file from the email.
+2. Open CMD in the extracted directory containing the `allure-report` folder.
+3. Run the following command to start a local web server:
+   
+   python -m http.server 8080
+   
+4. Open the report in your browser:
+   
+   http://localhost:8080
+   
+
