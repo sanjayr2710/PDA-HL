@@ -189,4 +189,334 @@ At line:1 char:1
 + ~~~
     + CategoryInfo          : ObjectNotFound: (run:String) [], CommandNotFoundException
 
+-----------------------
+(.venv) PS C:\Users\AL93033\PycharmProjects\PDAHL\New folder (2)\PDA-HL> pip install snowflake-connector-python --trusted-host pypi.org --trusted-host files.pythonhosted.org
+Collecting snowflake-connector-python
+  Using cached snowflake_connector_python-3.12.4.tar.gz (743 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting asn1crypto<2.0.0,>0.24.0 (from snowflake-connector-python)
+  Using cached asn1crypto-1.5.1-py2.py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: cffi<2.0.0,>=1.9 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (1.17.1)
+Collecting cryptography>=3.1.0 (from snowflake-connector-python)
+  Using cached cryptography-43.0.3-cp39-abi3-win32.whl.metadata (5.4 kB)
+Collecting pyOpenSSL<25.0.0,>=22.0.0 (from snowflake-connector-python)
+  Using cached pyOpenSSL-24.3.0-py3-none-any.whl.metadata (15 kB)
+Collecting pyjwt<3.0.0 (from snowflake-connector-python)
+  Using cached PyJWT-2.10.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting pytz (from snowflake-connector-python)
+  Using cached pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: requests<3.0.0 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (2.32.3)
+Requirement already satisfied: packaging in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (24.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (3.10)
+Collecting urllib3<2.0.0,>=1.21.1 (from snowflake-connector-python)
+  Using cached urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (2024.12.14)
+Requirement already satisfied: typing_extensions<5,>=4.3 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (4.12.2)
+Collecting filelock<4,>=3.5 (from snowflake-connector-python)
+  Using cached filelock-3.16.1-py3-none-any.whl.metadata (2.9 kB)
+Requirement already satisfied: sortedcontainers>=2.4.0 in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from snowflake-connector-python) (2.4.0)
+Collecting platformdirs<5.0.0,>=2.6.0 (from snowflake-connector-python)
+  Using cached platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+Collecting tomlkit (from snowflake-connector-python)
+  Using cached tomlkit-0.13.2-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: pycparser in c:\users\al93033\pycharmprojects\pdahl\new folder (2)\pda-hl\.venv\lib\site-packages (from cffi<2.0.0,>=1.9->snowflake-connector-python) (2.22)
+Using cached asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+Using cached cryptography-43.0.3-cp39-abi3-win32.whl (2.6 MB)
+Using cached filelock-3.16.1-py3-none-any.whl (16 kB)
+Using cached platformdirs-4.3.6-py3-none-any.whl (18 kB)
+Using cached PyJWT-2.10.1-py3-none-any.whl (22 kB)
+Using cached pyOpenSSL-24.3.0-py3-none-any.whl (56 kB)
+Using cached urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+Using cached pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Using cached tomlkit-0.13.2-py3-none-any.whl (37 kB)
+Building wheels for collected packages: snowflake-connector-python
+  Building wheel for snowflake-connector-python (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Building wheel for snowflake-connector-python (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [269 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\arrow_context.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\azure_storage_client.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\backoff_policies.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\bind_upload_agent.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\cache.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\compat.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\config_manager.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\connection.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\connection_diagnostic.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\constants.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\converter.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\converter_issue23517.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\converter_null.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\converter_snowsql.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\cursor.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\dbapi.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\description.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\encryption_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\errorcode.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\errors.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\feature.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\file_compression_type.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\file_transfer_agent.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\file_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\gcs_storage_client.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\gzip_decoder.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\local_storage_client.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\log_configuration.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\network.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\ocsp_asn1crypto.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\ocsp_snowflake.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\options.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\pandas_tools.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\proxy.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\result_batch.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\result_set.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\s3_storage_client.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\secret_detector.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\sfbinaryformat.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\sfdatetime.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\sf_dirs.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\snow_logging.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\sqlstate.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\ssd_internal_keys.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\ssl_wrap_socket.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\storage_client.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\telemetry.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\telemetry_oob.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\test_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\time_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\url_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\util_text.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\version.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\_query_context_cache.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\_sql_util.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\_utils.py -> build\lib.win32-cpython-39\snowflake\connector
+      copying src\snowflake\connector\__init__.py -> build\lib.win32-cpython-39\snowflake\connector
+      creating build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\by_plugin.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\default.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\idtoken.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\keypair.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\oauth.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\okta.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\usrpwdmfa.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\webbrowser.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\_auth.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      copying src\snowflake\connector\auth\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\auth
+      creating build\lib.win32-cpython-39\snowflake\connector\tool
+      copying src\snowflake\connector\tool\dump_certs.py -> build\lib.win32-cpython-39\snowflake\connector\tool
+      copying src\snowflake\connector\tool\dump_ocsp_response.py -> build\lib.win32-cpython-39\snowflake\connector\tool
+      copying src\snowflake\connector\tool\dump_ocsp_response_cache.py -> build\lib.win32-cpython-39\snowflake\connector\tool
+      copying src\snowflake\connector\tool\probe_connection.py -> build\lib.win32-cpython-39\snowflake\connector\tool
+      copying src\snowflake\connector\tool\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\tool
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored
+      copying src\snowflake\connector\vendored\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\adapters.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\api.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\auth.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\certs.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\compat.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\cookies.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\exceptions.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\help.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\hooks.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\models.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\sessions.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\status_codes.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\structures.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\utils.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\_internal_utils.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\requests\__version__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\connection.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\connectionpool.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\exceptions.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\fields.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\filepost.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\poolmanager.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\request.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\response.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\_collections.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\_version.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      copying src\snowflake\connector\vendored\urllib3\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\appengine.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\ntlmpool.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\pyopenssl.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\securetransport.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\socks.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\_appengine_environ.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      copying src\snowflake\connector\vendored\urllib3\contrib\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages
+      copying src\snowflake\connector\vendored\urllib3\packages\six.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages
+      copying src\snowflake\connector\vendored\urllib3\packages\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\connection.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\proxy.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\queue.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\request.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\response.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\retry.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\ssltransport.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\ssl_.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\ssl_match_hostname.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\timeout.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\url.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\wait.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      copying src\snowflake\connector\vendored\urllib3\util\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\util
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib\_securetransport
+      copying src\snowflake\connector\vendored\urllib3\contrib\_securetransport\bindings.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib\_securetransport
+      copying src\snowflake\connector\vendored\urllib3\contrib\_securetransport\low_level.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib\_securetransport
+      copying src\snowflake\connector\vendored\urllib3\contrib\_securetransport\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\contrib\_securetransport
+      creating build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages\backports
+      copying src\snowflake\connector\vendored\urllib3\packages\backports\makefile.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages\backports
+      copying src\snowflake\connector\vendored\urllib3\packages\backports\weakref_finalize.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages\backports
+      copying src\snowflake\connector\vendored\urllib3\packages\backports\__init__.py -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3\packages\backports
+      running egg_info
+      writing src\snowflake_connector_python.egg-info\PKG-INFO
+      writing dependency_links to src\snowflake_connector_python.egg-info\dependency_links.txt
+      writing entry points to src\snowflake_connector_python.egg-info\entry_points.txt
+      writing requirements to src\snowflake_connector_python.egg-info\requires.txt
+      writing top-level names to src\snowflake_connector_python.egg-info\top_level.txt
+      reading manifest file 'src\snowflake_connector_python.egg-info\SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching '*.rst'
+      warning: no previously-included files found matching 'src\snowflake\connector\nanoarrow_cpp\scripts\.clang-format'
+      warning: no previously-included files found matching 'src\snowflake\connector\nanoarrow_cpp\scripts\format.sh'
+      warning: no previously-included files found matching '.git-blame-ignore-revs'
+      warning: no previously-included files found matching '.pre-commit-config.yaml'
+      warning: no previously-included files found matching 'license_header.txt'
+      warning: no previously-included files found matching 'tox.ini'
+      warning: no previously-included files found matching 'mypy.ini'
+      warning: no previously-included files found matching '.clang-format'
+      no previously-included directories found matching 'ci'
+      no previously-included directories found matching 'benchmark'
+      no previously-included directories found matching 'test'
+      no previously-included directories found matching 'tested_requirements'
+      no previously-included directories found matching 'src\snowflake\connector\nanoarrow_cpp\scripts'
+      no previously-included directories found matching '__pycache__'
+      no previously-included directories found matching 'samples'
+      adding license file 'LICENSE.txt'
+      adding license file 'NOTICE'
+      writing manifest file 'src\snowflake_connector_python.egg-info\SOURCES.txt'
+      copying src\snowflake\connector\py.typed -> build\lib.win32-cpython-39\snowflake\connector
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\ArrayConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\ArrayConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\BinaryConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\BinaryConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\BooleanConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\BooleanConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowChunkIterator.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowChunkIterator.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowIterator.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowIterator.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowTableIterator.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\CArrowTableIterator.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\DateConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\DateConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\DecimalConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\DecimalConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\FixedSizeListConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\FixedSizeListConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\FloatConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\FloatConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\IColumnConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\IntConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\IntConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\LICENSE.txt -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\MapConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\MapConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\ObjectConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\ObjectConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\SnowflakeType.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\SnowflakeType.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\StringConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\StringConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\TimeConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\TimeConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\TimeStampConverter.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\TimeStampConverter.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc.c -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow.c -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow_arrow_iterator.pyx -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow_device.c -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow_device.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow_ipc.c -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\nanoarrow_ipc.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\Logging
+      copying src\snowflake\connector\nanoarrow_cpp\Logging\logging.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\Logging
+      copying src\snowflake\connector\nanoarrow_cpp\Logging\logging.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\Logging
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_accessors.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_alloc.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_assert.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_builder.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_emitter.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_endian.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_epilogue.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_flatbuffers.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_identifier.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_iov.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_prologue.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_refmap.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_rtconfig.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_types.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\flatcc_verifier.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python\Common.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python\Common.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python\Helpers.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python\Helpers.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Python
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util\macros.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util\time.cpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util\time.hpp -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\Util
+      creating build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\flatcc_portable.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\paligned_alloc.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pattributes.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pdiagnostic.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pdiagnostic_pop.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pdiagnostic_push.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pendian.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pendian_detect.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pinline.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pinttypes.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\portable.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\portable_basic.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pstatic_assert.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pstdalign.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pstdint.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\punaligned.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pversion.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable\pwarnings.h -> build\lib.win32-cpython-39\snowflake\connector\nanoarrow_cpp\ArrowIterator\flatcc\portable
+      copying src\snowflake\connector\vendored\requests\LICENSE -> build\lib.win32-cpython-39\snowflake\connector\vendored\requests
+      copying src\snowflake\connector\vendored\urllib3\LICENSE.txt -> build\lib.win32-cpython-39\snowflake\connector\vendored\urllib3
+      running build_ext
+      building 'snowflake.connector.nanoarrow_arrow_iterator' extension
+      error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for snowflake-connector-python
+Failed to build snowflake-connector-python
+ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (snowflake-connector-python)
+(.venv) PS C:\Users\AL93033\PycharmProjects\PDAHL\New folder (2)\PDA-HL>
+
+
+
+
 
